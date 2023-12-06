@@ -8,7 +8,7 @@
   width: 33%;
   flex-direction: column;
   direction: rtl;
-  padding: 29px 0px 75px 0px;
+  padding: 29px 0px 54px 0px;
   border-radius: 20px;
 }
 /* title factor part [start] */
@@ -18,7 +18,7 @@
   font-size: 17.5px;
 }
 #factor-part > div:first-of-type {
-  border-bottom: 1px solid #2b2b40;
+  border-bottom: 1px solid var(--gray-300-color);
   padding: 0 20px 18px 20px;
 }
 /* title factor part [end] */
@@ -45,8 +45,7 @@
   border: none;
   height: 47px;
 }
-#factor-part select:hover,
-#factor-part button:hover {
+#factor-part select:hover {
   cursor: pointer;
 }
 #factor-part button {
@@ -66,7 +65,7 @@
 #title-dramad-part {
   background-color: var(--sec-color);
   border-radius: 20px 20px 0 0;
-  border-bottom: 1px solid #2b2b40;
+  border-bottom: 1px solid var(--gray-300-color);
   padding: 26px 20px 21px 0;
 }
 #title-dramad-part h1 {
@@ -82,11 +81,45 @@
   background-color: var(--sec-color);
   gap: 20px;
   border-radius: 0 0 20px 20px;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
 }
 #body-dramad-part > div {
+  display: flex;
+  gap: 190px;
+  align-items: center;
+}
+#body-dramad-part > div > button{
+  padding: 13px 24px 13px 24px;
+  height: 47px;
+}
+#body-dramad-part > div > button > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--normal-text-color);
+}
+#body-dramad-part > div > div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.box-cash-body-dramad-part{
+    padding: 14px;
+    border: 1px dashed var(--gray-300-color);
+    border-radius: 20px;
     display: flex;
-    gap: auto;
+    gap: 10px;
+    flex-direction: column;
+    width: 105px;
+}
+.box-cash-body-dramad-part>h1{
+    color: var(--normal-text-color);
+    font-size: 26px;
+    height: 24px;
+}
+.box-cash-body-dramad-part>p{
+    color: var(--gray-400-color);
+    margin: 0;
+    font-size: 14px;
 }
 /* body dramad part [end] */
 /* darmad-part [end] */
