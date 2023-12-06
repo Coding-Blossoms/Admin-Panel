@@ -1,0 +1,110 @@
+@font-face {
+    font-family: IRANSansXV;
+    src: url(../font/IRANSansXV.woff);
+  }
+
+  * {
+    font-family: IRANSansXV;
+  }
+
+  /* color style */
+  :root {
+    --body-color: #151521;
+    --normal-text-color: #f8ffff;
+    --p-text-color: #6d6d80;
+    --blue-color: #009ef7;
+    --green-color: #50cd89;
+    --red-color: #f1416c;
+    --gray-400-color: #78829d;
+    --sec-color: #1e1e2d;
+    --gray-300-color:#2b2b40;
+  }
+  body {
+    background-color: var(--body-color);
+    margin: 0;
+    padding: 0;
+
+  /* first section */
+  }
+  /* section style */
+  section {
+    margin: auto;
+    max-width: 1289px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .metting-part {
+  width: 85%;
+  height:300px;
+  direction: rtl;
+  padding: 60px 0px 54px 0px;
+  border-radius: 9px;
+  background-color: var(--sec-color);
+  position: relative;
+  
+  }
+
+  .input-meet {
+    position: relative;
+    border-bottom: 1px solid var(--gray-300-color);
+  }
+
+ .input-meet h2 {
+    font-size: 15px;
+    color: var(--normal-text-color);
+    font-weight: 900;
+    position: absolute;
+    bottom: 10px;
+    right: 9px;
+ }
+
+ /* left item */
+
+ .leftitem-meet{
+    float: left;
+    
+ }
+
+ .leftitem-meet select {
+    font-size: 15px;
+    background-color: var(--gray-300-color);
+    color: var(--gray-400-color);
+    border: none;
+    padding: 4px 30px;
+    border-radius: 10px;
+    appearance: 2em;
+    outline: none;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 90px;
+ }
+
+ .leftitem-meet button {
+   width: 100px;
+   height: 35px;
+   padding: 5px 13px;
+   border: none;
+   outline: none;
+   background-color: var(--blue-color);
+   border-radius: 10px;
+   margin-left: 10px;
+   position: absolute;
+   left: 10px;
+   bottom: 15px;
+   
+ }
+
+ .leftitem-meet button span{
+    font-size: 13px;
+    color: var(--normal-text-color);
+   
+    
+ }
