@@ -1,0 +1,64 @@
+/* sec-first [END] */
+#sec-first{
+    gap: 29px;
+}
+/* factor part [start] */
+#factor-part{
+    background-color:var(--sec-color);
+    width: 33%;
+    flex-direction: column;
+    direction: rtl;
+    padding: 29px 0px 75px 0px;
+    border-radius: 20px;
+}
+/* title factor part [start] */
+#factor-part h1{
+    color: var(--normal-text-color);
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 17.5px;
+}
+#factor-part>div:first-of-type{
+    border-bottom: 1px solid #2B2B40;
+    padding: 0 20px 18px 20px;
+}
+/* title factor part [end] */
+/* p style facotr part [start] */
+#factor-part p{
+    padding: 0 20px 13px 20px;
+}
+/* p style facotr part [end] */
+/* input,btn style factor part [start] */
+#factor-part > div{
+    display: flex;
+    gap: 10px;
+    padding: 0 20px 13px 20px;
+}
+#factor-part select {
+    width: 84%;
+    font-size: 14px;
+    outline: none;
+    appearance: none;
+    background-color: #1b1b29;
+    color: var(--p-text-color);
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: none;
+    height: 47px;
+}
+#factor-part select:hover , #factor-part button:hover {
+    cursor: pointer;
+}
+#factor-part button {
+    background-color: var(--blue-color );
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    height: 47px;
+    width: 12%;
+}
+/* input,btn style factor part [end] */
+/* factor part [end] */
+
+/* sec-first [END] */
