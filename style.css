@@ -18,6 +18,12 @@
     --gray-400-color: #78829d;
     --sec-color: #1e1e2d;
     --gray-300-color:#2b2b40;
+    --card-padding:1.8rem;
+    --yellow-color: rgb(218, 218, 31);;
+
+
+    --background-color: 0 2rem 3rem var(--green-color);
+    /* padding 1.2rem */
   }
   body {
     background-color: var(--body-color);
@@ -41,8 +47,8 @@
     position: relative;
   }
   .metting-part {
-  width: 85%;
-  height:300px;
+  width: 90%;
+  height:360px;
   direction: rtl;
   padding: 60px 0px 54px 0px;
   border-radius: 9px;
@@ -57,12 +63,12 @@
   }
 
  .input-meet h2 {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--normal-text-color);
     font-weight: 900;
     position: absolute;
-    bottom: 10px;
-    right: 9px;
+    bottom: 8px;
+    right: 19px;
  }
 
  /* left item */
@@ -72,6 +78,7 @@
     
  }
 
+ /* Select option */
  .leftitem-meet select {
     font-size: 15px;
     background-color: var(--gray-300-color);
@@ -86,7 +93,7 @@
     bottom: 18px;
     left: 90px;
  }
-
+/* button of leftitem */
  .leftitem-meet button {
    width: 100px;
    height: 35px;
@@ -104,7 +111,69 @@
 
  .leftitem-meet button span{
     font-size: 13px;
-    color: var(--normal-text-color);
-   
-    
+    color: var(--normal-text-color);   
  }
+
+/* step 2 */
+table {
+   border-collapse: collapse;
+}
+
+ .recent-order .detaies table tr{
+   border-bottom: 1px solid var(--gray-300-color);
+ 
+ }
+  
+.recent-order table {
+   width: 100%;
+   border-radius: 2rem;
+   padding: 1rem;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.recent-order table th{
+   color: var(--normal-text-color);
+   padding-bottom: 10px;
+   
+}
+
+.recent-order table tbody tr td{
+   color: var(--p-text-color);
+   padding-bottom: 20px;
+   padding-top: 12px;
+
+}
+
+
+.recent-order table .succes {
+   color: var(--green-color);
+  background-color: var(--box-shadow);
+
+}
+
+.recent-order table .warring{
+   color: var(--red-color);
+}
+
+.recent-order table .hoshdar{
+   color: var(--yellow-color);
+}
+/* meeting part end */
+
+/* report part start */
+.report-part{
+   width: 90%;
+  height:500px;
+  direction: rtl;
+  padding: 60px 0px 54px 0px;
+  border-radius: 9px;
+  background-color: var(--sec-color);
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.
+ 
+
