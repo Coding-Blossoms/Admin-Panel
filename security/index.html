@@ -1,18 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Css/security.css" />
-    <link rel="stylesheet" href="Css/style.global.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.global.css">
+    <link rel="stylesheet" href="Css/security.css">
+</head>
+<body>
 
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container-slide">
-      <table-chart></table-chart>
-    </div>
+    <section>
+        <!-- header section -->
+        <div class="metting-part">
+            <div class="input-meet">
+                <h2>جلسات ورود ب سیستم</h2>
+                <div class="leftitem-meet">
+                    <select >
+                        <option value="1">1 ساعت</option>
+                        <option value="2">6 ساعت</option>
+                        <option value="3">12 ساعت</option>
+                        <option value="4">24 ساعت</option>
+                    </select>
+                    <button>
+                        <span>نمایش همه</span>
+                    </button>
+                </div>
+            </div>
 
-    <script type="module" src="JS/script.js"></script>
-  </body>
+               <!-- content -->
+
+                <div class="recent-order">
+                    <div class="detaies">
+                    <table>   
+                        <thead>
+                            <tr>
+                                
+                                <th>مکان</th>
+                                <th>وضعیت</th>
+                                <th>دستگاه</th>
+                                <th>ادرس ای پی</th>
+                                <th>زمان</th>
+                               
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>USA(5)</td>
+                                <td class="succes" >موفق</td>
+                                <td>Chrome-Windows</td>
+                                <td>236.125.56.78</td>
+                                <td>دو دقیقه پیش</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>United Kingdom(10)</td>
+                                <td class="succes" >موفق</td>
+                                <td>Safari-Max OS</td>
+                                <td>236.125.56.78</td>
+                                <td>ده دقیقه پیش</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>(-)wayیاN</td>
+                                <td class="warring" >خطا</td>
+                                <td>Firefox-Windos</td>
+                                <td>236.125.56.10</td>
+                                <td>بیست دقیقه پیش</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>Japan(112)</td>
+                                <td class="succes">موفق</td>
+                                <td>iOS-iphone</td>
+                                <td>236.125.56.74</td>
+                                <td>سی دقیقه پیش</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>Italy(5)</td>
+                                <td class="hoshdar">هشدار</td>
+                                <td>Samsung Noted 5-Android</td>
+                                <td>236.100.56.50</td>
+                                <td>چهل دقیقه پیش</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+                 <!-- meeting part finish -->
+
+                 <section>
+                    <div class="report-part">
+                        <div class="report-content">
+                            <h2>گزارش</h2>
+                            <div></div>   
+
+                             <div class="all-content">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>500</td>
+                                            <td>POST /v1/invoice/in_8873_5079/invalid</td>
+                                            <td>20 Jun 2023, 2:40 pm</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_4790_9109/payment</td>
+                                            <td>19 Aug 2023, 6:43 am</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_6196_6184/payment</td>
+                                            <td>15 Apr 2023, 11:30 am</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_8126_6463/payment</td>
+                                            <td>24 Jun 2023, 10:30 am</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_6196_6184/payment</td>
+                                            <td>19 Aug 2023, 11:05 am</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_8126_6463/payment</td>
+                                            <td>05 May 2023, 8:43 pm</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_5719_9035/payment</td>
+                                            <td>20 Dec 2023, 8:43 pm</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_5719_9035/payment</td>
+                                            <td>15 Apr 2023, 6:05 pm</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>200</td>
+                                            <td>POST /v1/invoices/in_8126_6463/payment</td>
+                                            <td>24 Jun 2023, 2:40 pm</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>404 هشدار</td>
+                                            <td>POST /v1/customer/c_64b78500a521f/not_found</td>
+                                            <td>20 Jun 2023, 11:05 am</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                             </div>
+                        </div>
+                    </div>
+                 </section>
+
+                 <!-- security page codes [start] -->
+                 <div class="container-slide">
+                    <table-chart></table-chart>
+                  </div>
+                 <!-- security page codes [end] -->
+
+
+
+    <script type="module" src="JS/security.js"></script>
+    <script src="app.js"></script>
+</body>
 </html>
