@@ -4,7 +4,9 @@ document.addEventListener("afterload", afterload());
 // function afterload
 function afterload() {
   this.dramad();
+  profitThisYear();
 }
+
 function dramad() {
   for (let i = 0; i < 6841; i++) {
     setTimeout(() => {
@@ -37,7 +39,7 @@ function profit2022() {
 
 
   let bodySecBaianeHa1 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(3)"
+    ".body-sec-baiane-ha:nth-of-type(9)"
   ).innerHTML = `
   <p>May 30, 2020</p>
   <p>523445943</p>
@@ -45,7 +47,7 @@ function profit2022() {
   <h6>$1.30</h6>
   <button>دانلود</button>
   `),bodySecBaianeHa2 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(4)"
+    ".body-sec-baiane-ha:nth-of-type(7)"
   ).innerHTML = `
   <p>Apr 22, 2020	</p>
   <p>231445943</p>
@@ -61,7 +63,7 @@ function profit2022() {
   <h6>$31.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa4 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(6)"
+    ".body-sec-baiane-ha:nth-of-type(3)"
   ).innerHTML = `
   <p>Nov 01, 2020</p>
   <p>	984445943</p>
@@ -77,7 +79,7 @@ function profit2022() {
   <h6>	$0.80</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa6 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(8)"
+    ".body-sec-baiane-ha:nth-of-type(4)"
   ).innerHTML = `
   <p>Nov 01, 2020</p>
   <p>102445788</p>
@@ -85,7 +87,7 @@ function profit2022() {
   <h6>$38.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa7 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(8)"
+    ".body-sec-baiane-ha:nth-of-type(6)"
   ).innerHTML = `
   <p>Nov 01, 2020	</p>
   <p>		102445788	</p>
@@ -93,7 +95,7 @@ function profit2022() {
   <h6>	$38.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa8 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(9)"
+    ".body-sec-baiane-ha:nth-of-type(8)"
   ).innerHTML = `
   <p>Oct 08, 2020		</p>
   <p>		312445984	</p>
@@ -123,44 +125,44 @@ function profit2021() {
 
 
   let bodySecBaianeHa1 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(3)"
+    ".body-sec-baiane-ha:nth-of-type(4)"
   ).innerHTML = `
   <p>May 30, 2020</p>
   <p>523445943</p>
    <p>هزینه فروشنده</p>
-  <h6>$1.30</h6>
+  <h6>$3.30</h6>
   <button>دانلود</button>
   `),bodySecBaianeHa2 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(4)"
+    ".body-sec-baiane-ha:nth-of-type(3)"
   ).innerHTML = `
   <p>Apr 22, 2020	</p>
   <p>231445943</p>
    <p>برنامه جابجایی / تحویل بسته	</p>
-  <h6>$204.00</h6>
+  <h6>$244.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa3 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(5)"
+    ".body-sec-baiane-ha:nth-of-type(7)"
   ).innerHTML = `
   <p>Feb 09, 2020		</p>
   <p>426445943	</p>
    <p>تصویرگری طراحی بصری	</p>
-  <h6>$31.00</h6>
+  <h6>$51.40</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa4 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(6)"
+    ".body-sec-baiane-ha:nth-of-type(9)"
   ).innerHTML = `
   <p>Nov 01, 2020</p>
   <p>	984445943</p>
    <p>خلاصه بسته ویژال	</p>
-  <h6>$52.00</h6>
+  <h6>$62.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa5 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(7)"
+    ".body-sec-baiane-ha:nth-of-type(10)"
   ).innerHTML = `
   <p>Jan 04, 2020</p>
   <p>		324442313</p>
    <p>	هزینه فروشنده	</p>
-  <h6>	$0.80</h6>
+  <h6>	$3.40</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa6 = (document.querySelector(
     ".body-sec-baiane-ha:nth-of-type(8)"
@@ -168,23 +170,23 @@ function profit2021() {
   <p>Nov 01, 2020</p>
   <p>102445788</p>
   <p>شفافیت شب تاریک بسته 36 آیکون</p>
-  <h6>$38.00</h6>
+  <h6>$58.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa7 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(8)"
+    ".body-sec-baiane-ha:nth-of-type(6)"
   ).innerHTML = `
   <p>Nov 01, 2020	</p>
   <p>		102445788	</p>
-   <p>	شفافیت شب تاریک بسته 36 آیکون	</p>
-  <h6>	$38.00</h6>
+   <p>	شفافیت تاریک بسته 39 آیکون	</p>
+  <h6>	$18.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa8 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(9)"
+    ".body-sec-baiane-ha:nth-of-type(4)"
   ).innerHTML = `
   <p>Oct 08, 2020		</p>
   <p>		312445984	</p>
    <p>	تلفن کارتون	</p>
-  <h6>	$76.00</h6>
+  <h6>	$50.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa9 = (document.querySelector(
     ".body-sec-baiane-ha:nth-of-type(10)"
@@ -192,7 +194,7 @@ function profit2021() {
   <p>Sep 15, 2020			</p>
   <p>			312445984	</p>
    <p>	بسته نرم افزار ایفون 12</p>
-  <h6>$5.00</h6>
+  <h6>$7.70</h6>
   <button>دانلود</button>
   `);
 }
@@ -293,36 +295,36 @@ function profitThisYear() {
   let thisYear = document.querySelector("#header-sec-baiane-ha> div > li:nth-of-type(1)").className = "selcted-category-header-sec-baiane-ha"
 
   let bodySecBaianeHa1 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(3)"
+    ".body-sec-baiane-ha:nth-of-type(11)"
   ).innerHTML = `
   <p>May 30, 2020</p>
   <p>523445943</p>
    <p>هزینه فروشنده</p>
-  <h6>$1.30</h6>
+  <h6>$3.30</h6>
   <button>دانلود</button>
   `),bodySecBaianeHa2 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(4)"
+    ".body-sec-baiane-ha:nth-of-type(10)"
   ).innerHTML = `
   <p>Apr 22, 2020	</p>
   <p>231445943</p>
    <p>برنامه جابجایی / تحویل بسته	</p>
-  <h6>$204.00</h6>
+  <h6>$244.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa3 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(5)"
+    ".body-sec-baiane-ha:nth-of-type(9)"
   ).innerHTML = `
   <p>Feb 09, 2020		</p>
   <p>426445943	</p>
    <p>تصویرگری طراحی بصری	</p>
-  <h6>$31.00</h6>
+  <h6>$51.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa4 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(6)"
+    ".body-sec-baiane-ha:nth-of-type(8)"
   ).innerHTML = `
   <p>Nov 01, 2020</p>
   <p>	984445943</p>
    <p>خلاصه بسته ویژال	</p>
-  <h6>$52.00</h6>
+  <h6>$62.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa5 = (document.querySelector(
     ".body-sec-baiane-ha:nth-of-type(7)"
@@ -330,39 +332,39 @@ function profitThisYear() {
   <p>Jan 04, 2020</p>
   <p>		324442313</p>
    <p>	هزینه فروشنده	</p>
-  <h6>	$0.80</h6>
+  <h6>	$1.80</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa6 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(8)"
+    ".body-sec-baiane-ha:nth-of-type(6)"
   ).innerHTML = `
   <p>Nov 01, 2020</p>
   <p>102445788</p>
   <p>شفافیت شب تاریک بسته 36 آیکون</p>
-  <h6>$38.00</h6>
+  <h6>$46.50</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa7 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(8)"
+    ".body-sec-baiane-ha:nth-of-type(5)"
   ).innerHTML = `
   <p>Nov 01, 2020	</p>
   <p>		102445788	</p>
    <p>	شفافیت شب تاریک بسته 36 آیکون	</p>
-  <h6>	$38.00</h6>
+  <h6>	$48.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa8 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(9)"
+    ".body-sec-baiane-ha:nth-of-type(4)"
   ).innerHTML = `
   <p>Oct 08, 2020		</p>
   <p>		312445984	</p>
    <p>	تلفن کارتون	</p>
-  <h6>	$76.00</h6>
+  <h6>	$16.00</h6>
   <button>دانلود</button>
   `), bodySecBaianeHa9 = (document.querySelector(
-    ".body-sec-baiane-ha:nth-of-type(10)"
+    ".body-sec-baiane-ha:nth-of-type(3)"
   ).innerHTML = `
   <p>Sep 15, 2020			</p>
   <p>			312445984	</p>
    <p>	بسته نرم افزار ایفون 12</p>
-  <h6>$5.00</h6>
+  <h6>$2.20</h6>
   <button>دانلود</button>
   `);
 }
