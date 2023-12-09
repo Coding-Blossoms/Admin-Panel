@@ -2,19 +2,23 @@ const template = document.createElement("template");
 
 template.innerHTML = `
 <link rel="stylesheet" href="components/Table/table.css" />
+<link rel="stylesheet" href="../Css/style.global.css" />
 <div class="table-main">
-<div class="row">
-  <div class="btn-show-all"></div>
-  <div class="time-select"></div>
-  <div class="table-title"></div>
-</div>
-
-<div class="row">
-  <div class="title-header-table"></div>
-</div>
-<div class="row">
-  <p class="text-table"></p>
-</div>
+  <div class="row">
+  <div class="left-content">
+    <div class="btn-show-all"><slot name="btn-show-name"></slot></div>
+    <div class="time-select"><slot name="time-select"></slot></div>
+  </div>
+  <div class="right-content">
+   <h3 class="table-title"></h3>
+  </div>
+  </div>
+  <div class="row">
+    <div class="title-header-table"></div>
+  </div>
+  <div class="row">
+   <p class="text-table"></p>
+  </div>
 </div>
 `;
 
@@ -25,7 +29,7 @@ class Table extends HTMLElement {
     this.shadowRoot.appendChild(template.content.cloneNode(true));
   }
 
-  connectedCallbackk() {
+  connectedCallback() {
     // get an attribute to btn show all.
     this.shadowRoot.querySelector(".btn-show-all").innerHTML =
       this.getAttribute("btn-show");
