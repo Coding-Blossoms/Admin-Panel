@@ -1,0 +1,30 @@
+.table-main{
+    width: 100%;
+    background-color: var(--sec-color);
+    border-radius: 8px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 27px;
+    border-bottom: 1px solid var(--gray-300-color);
+}
+
+.row:last-of-type{
+    border: none;
+}
+
+.btn-show-all{
+    width: fit-content;
+    padding: 8px 17px;
+    background-color: var(--blue-color);
+    color: var(--normal-text-color);
+    border-radius: 8px;
+}
+
+.table-title{
+    color: var(--normal-text-color);
+    font-size: calc(1.26rem + 0.12vw);
+}
