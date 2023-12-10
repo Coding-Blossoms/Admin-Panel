@@ -16,6 +16,9 @@
   --select-table-btn: #1B1B29;
   --select-table-text: #92929F;
   --select-table-border-color: #1b1b29;
+  --bg-danger: #3a2434;
+  --bg-succes: #1c3238;
+  --copy-color-icon: #565674;
 }
 * {
   font-family: IRANSansXV;
