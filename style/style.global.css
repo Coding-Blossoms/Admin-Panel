@@ -30,6 +30,8 @@ section {
   min-width: 38px;
   display: flex;
   flex-wrap: wrap;
+  padding: 25px;
+  border-radius: 20px;
 }
 /* alment style */
 p {
@@ -45,9 +47,9 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  color: var(--normal-text-color);
 }
 button {
-  background-color: var(--blue-color);
   outline: none;
   border: none;
   border-radius: 12px;
