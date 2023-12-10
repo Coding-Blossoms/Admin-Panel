@@ -29,26 +29,54 @@
   }
   body {
     background-color: var(--body-color);
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+   }
 
+
+   .gozaresh{
+    display: flex;
+    background-color: var(--sec-color);
+   }
+
+   .gozaresh button {
+      padding: 10px 10px;   
+      margin-left: 190px; 
+      background-color: var(--sec-color);
+      color: var(--p-text-color);
+      border: none;
+       
+   }
+
+   .gozaresh button a{
+      text-decoration: none;
+      color: var(--p-text-color);
+      font-size: 16px;
+
+   }
+
+   .gozaresh button:hover {
+      border-bottom: 1px solid var(--blue-color);
+      transition-duration:1s ;
+
+   }
   /* first section */
-  }
   /* section style */
-  section {
-    margin: auto;
+  .report {
+    display: flex;
+    margin: 0 auto;
     max-width: 1289px;
     min-width: 100px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 10px;
-    margin-right: 10px;
     position: relative;
+    
   }
   .metting-part {
+   margin: 0 auto;
+   margin-top: 50px;
   width: 90%;
   height:360px;
   direction: rtl;
@@ -56,7 +84,7 @@
   border-radius: 9px;
   background-color: var(--sec-color);
   position: relative;
-  
+  display: none;
   }
 
   .input-meet {
@@ -167,6 +195,7 @@ table {
 
 /* report part start */
 .report-part{
+   margin: 0 auto;
    width: 90%;
   height:660px;
   direction: rtl;
@@ -176,6 +205,7 @@ table {
   position: relative;
   margin-top: 30px;
   margin-bottom: 15px;
+  display: none;
 }
 
 .report-content h2{

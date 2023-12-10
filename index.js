@@ -20,13 +20,33 @@ function afterload() {
 
 // marjan's code
 // function
-// this function is for downloading the report as a PDF file
-window.onload = function(params) {
+// this function is for downloading the report as a PDF file 
+window.onload = function() {
     document.getElementById("download").addEventListener("click",()=>{
        const invoice = this.document.getElementById("invoice");
        console.log(invoice);
        console.log(window);
        html2pdf().from(invoice).save();
     })
+    
+}
+
+// report 
+// show report page
+
+    const meetingPart = document.querySelector(".metting-part");
+    const reportPart = document.querySelector(".report-part");
+function showFirstfunc() {
+    
+    if (meetingPart.style.display === "none") {
+        meetingPart.style.display = "block";
+    }else{
+        meetingPart.style.display = "none";
+    }if (reportPart.style.display === "none"){
+        reportPart.style.display = "block";
+    }else{
+        reportPart.style.display = "none";
+    }
+
     
 }
