@@ -7,7 +7,12 @@ template.innerHTML = `
   <div class="row">
   <div class="left-content">
     <div class="btn-show-all"><slot name="btn-show-name"></slot></div>
-    <div class="time-select"><slot name="time-select"></slot></div>
+    <select class="time-select">
+      <div value="select-option">1 ساعت</div>
+      <div value="select-option">6 ساعت</div>
+      <div value="select-option">12 ساعت</div>
+      <div value="select-option">24 ساعت</div>
+      </select>
   </div>
   <div class="right-content">
    <h3 class="table-title"></h3>

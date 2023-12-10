@@ -8,12 +8,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 27px;
+    padding: 12px 27px;
     border-bottom: 1px solid var(--gray-300-color);
 }
 
 .row:last-of-type{
     border: none;
+}
+
+.left-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0px;
 }
 
 .btn-show-all{
@@ -22,9 +29,37 @@
     background-color: var(--blue-color);
     color: var(--normal-text-color);
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .table-title{
     color: var(--normal-text-color);
     font-size: calc(1.26rem + 0.12vw);
+}
+
+.time-select{
+    width: fit-content;
+    padding: 9px 25px;
+    background-color: var(--select-table-btn);
+    color: var(--select-table-text);
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin: 0px 12px;
+    border-color: var(--select-table-border-color);
+    cursor: pointer;
+}
+
+div[value="select-option"]{
+    cursor: pointer;
+    background-color: rgb(255, 0, 230);
+    color: red;
+    padding: 30px 23px;
+}
+
+.time-select-div{
+    cursor: pointer;
+    background-color: rgb(255, 0, 230);
+    color: red;
+    padding: 30px 23px;
 }
