@@ -3,7 +3,7 @@ const template = document.createElement("template");
 template.innerHTML = `
 <link rel="stylesheet" href="components/Table/table.css" />
 <link rel="stylesheet" href="../Css/style.global.css" />
-<div class="table-main">
+<div class="table-main" id="id">
   <div class="row">
   <div class="left-content">
     <div class="btn-show-all"><slot name="btn-show-name"></slot></div>
@@ -87,6 +87,9 @@ class Table extends HTMLElement {
       this.getAttribute("text-table-five");
     this.shadowRoot.querySelector(".text-table-five2").innerHTML =
       this.getAttribute("text-table-five2");
+
+    this.shadowRoot.id = this.getAttribute("id");
+    this.shadowRoot.querySelector("#id").id = this.getAttribute("id");
   }
 
   static observedAttributes() {
@@ -103,9 +106,9 @@ class Table extends HTMLElement {
       "text-table-three2",
       "text-table-four2",
       "text-table-five2",
+      "id",
     ];
   }
 }
 
 export { Table };
-export { template };
