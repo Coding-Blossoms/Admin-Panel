@@ -1,230 +1,63 @@
-/* sec-first [END] */
-#sec-first {
-  gap: 50px;
-}
-/* factor part [start] */
-#factor-part {
-  background-color: var(--sec-color);
-  width: 33%;
-  flex-direction: column;
-  direction: rtl;
-  padding: 29px 0px 54px 0px;
-  border-radius: 20px;
-}
-/* title factor part [start] */
-#factor-part h1 {
-  color: var(--normal-text-color);
-  font-weight: 600;
-  font-size: 17.5px;
-}
-#factor-part > div:first-of-type {
-  border-bottom: 1px solid var(--gray-300-color);
-  padding: 0 20px 18px 20px;
-}
-/* title factor part [end] */
-/* p style facotr part [start] */
-#factor-part p {
-  padding: 0 20px 13px 20px;
-}
-/* p style facotr part [end] */
-/* input,btn style factor part [start] */
-#factor-part > div {
-  display: flex;
-  gap: 10px;
-  padding: 0 20px 13px 20px;
-}
-#factor-part select {
-  width: 84%;
-  font-size: 14px;
-  outline: none;
-  appearance: none;
-  background-color: #1b1b29;
-  color: var(--p-text-color);
-  border-radius: 10px;
-  padding: 0px 10px;
-  border: none;
-  height: 47px;
-}
-#factor-part select:hover {
-  cursor: pointer;
-}
-#factor-part button {
-  height: 47px;
-  width: 12%;
-}
-/* input,btn style factor part [end] */
-/* factor part [end] */
-/* darmad-part [start] */
-#darmad-part {
-  display: flex;
-  flex-direction: column;
-  width: 63%;
+/* global css [start] */
+* {
   direction: rtl;
 }
-/* title dramad part [start] */
-#title-dramad-part {
+/* global css [END] */
+/* sec barname argae [START] */
+section:first-of-type {
   background-color: var(--sec-color);
-  border-radius: 20px 20px 0 0;
-  border-bottom: 1px solid var(--gray-300-color);
-  padding: 26px 20px 21px 0;
+  flex-direction: column;
+  gap: 26px;
 }
-#title-dramad-part h1 {
-  color: var(--normal-text-color);
+section:first-of-type > h1 {
   font-weight: 600;
-  font-size: 17.5px;
+  font-size: 19.5px;
 }
-/* title dramad part [end] */
-/* body dramad part [start] */
-#body-dramad-part {
+section:first-of-type > div {
   display: flex;
-  flex-direction: column;
-  background-color: var(--sec-color);
-  gap: 20px;
-  border-radius: 0 0 20px 20px;
-  padding: 0 20px 20px 20px;
+  gap: 15%;
 }
-#body-dramad-part > div {
-  display: flex;
-  gap: 23%;
-  align-items: center;
+section:first-of-type > div > div:first-of-type {
+  width: 37%;
 }
-#body-dramad-part > div > button {
-  padding: 13px 24px 13px 24px;
-  height: 47px;
+section:first-of-type > div > div:last-of-type {
+  width: 50%;
 }
-#body-dramad-part > div > button > a {
-  font-size: 14px;
-  text-decoration: none;
-  color: var(--normal-text-color);
-}
-#body-dramad-part > div > div {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.box-cash-body-dramad-part {
-  padding: 14px;
-  border: 1px dashed var(--gray-300-color);
-  border-radius: 20px;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  width: 105px;
-}
-.box-cash-body-dramad-part > h1 {
-  color: var(--normal-text-color);
-  font-size: 26px;
-  height: 24px;
-}
-.box-cash-body-dramad-part > p {
-  color: var(--gray-400-color);
-  margin: 0;
-  font-size: 14px;
-}
-/* body dramad part [end] */
-/* darmad-part [end] */
-/* sec-first [END] */
-/* sec-tow [START] */
-#sec-baiane-ha {
-  flex-direction: column;
-  margin-top: 20px;
-  direction: rtl;
-}
-/* header-sec-biane-ha [start] */
-#header-sec-baiane-ha {
-  display: flex;
-  background-color: var(--sec-color);
-  padding: 0 30px;
-  align-items: center;
-  border-radius: 20px 20px 0 0;
-  border-bottom: 1px solid var(--gray-300-color);
-  gap: 944px;
-}
-#header-sec-baiane-ha > h4 {
-  font-weight: 600;
-  font-size: 17.5px;
-  color: var(--normal-text-color);
-}
-#header-sec-baiane-ha > div {
-  display: flex;
-  gap: 10px;
-}
-#header-sec-baiane-ha > div > li {
-  padding: 20px 10px 20px 10px;
-}
-#header-sec-baiane-ha > div > li > a {
-  color: var(--p-text-color);
-  font-size: 15px;
-}
-#header-sec-baiane-ha > div > li:hover{
-  border-bottom: 1px solid var(--blue-color);
-}
-.selcted-category-header-sec-baiane-ha {
-  border-bottom: 1px solid var(--blue-color);
-}
-.selcted-category-header-sec-baiane-ha a {
-  color: var(--normal-text-color) !important;
-}
-/* header-sec-biane-ha [end] */
-/* body-sec-baiane-ha [start] */
-.body-sec-baiane-ha {
-  background-color: var(--sec-color);
-  border-bottom: 1px solid var(--gray-300-color);
-  padding: 7px 35px;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-}
-.body-sec-baiane-ha:last-of-type {
-  border-radius: 0 0 20px 20px;
-  border-bottom: 0;
-  padding-bottom: 15px;
-}
-.body-sec-baiane-ha span {
-  color: var(--normal-text-color);
-  margin-right: 2px;
-}
-.body-sec-baiane-ha p,
-.body-sec-baiane-ha h6 {
+section:first-of-type > div > div > p {
   font-weight: 500;
   font-size: 14px;
+  width: 450px;
 }
-.body-sec-baiane-ha:nth-of-type(3) h6,
-.body-sec-baiane-ha:nth-of-type(5) h6,
-.body-sec-baiane-ha:nth-of-type(8) h6,
-.body-sec-baiane-ha:nth-of-type(9) h6,
-.body-sec-baiane-ha:nth-of-type(10) h6 {
-  color: var(--green-color);
+section:first-of-type > div > div > h4 {
+  font-weight: 600;
+  font-size: 16px;
 }
-.body-sec-baiane-ha:nth-of-type(4) h6,
-.body-sec-baiane-ha:nth-of-type(6) h6,
-.body-sec-baiane-ha:nth-of-type(7) h6,
-.body-sec-baiane-ha:nth-of-type(11) h6 {
-  color: var(--red-color);
-}
-.body-sec-baiane-ha button {
+#sec-barname-ajra-part-nahve-astafade button,
+#sec-barname-ajra-part-shoma-pevanad-arga div button {
   background-color: var(--gray-300-color);
-  width: 62px !important;
-  height: 34px;
   color: var(--p-text-color);
-  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 10px 20px;
 }
-.body-sec-baiane-ha button:hover {
+#sec-barname-ajra-part-nahve-astafade button:hover,
+#sec-barname-ajra-part-shoma-pevanad-arga div button:hover {
   color: var(--blue-color);
-  background-color: rgba(34, 131, 234, 0.373);
+  background-color: #0c97e896;
 }
-.body-sec-baiane-ha *:nth-of-type(1) {
-  width: 210px;
+#sec-barname-ajra-part-shoma-pevanad-arga div input {
+  background-color: var(--body-color);
+  outline: none;
+  border: none;
+  color: var(--p-text-color);
+  font-size: 14px;
+  font-weight: 800;
+  width: 487px;
+  font-size: 14px;
+  height: 33px;
+  font-weight: 500;
+  border-radius: 14px;
+  margin-left: 10px;
+  padding: 7px 10px;
 }
-.body-sec-baiane-ha *:nth-of-type(2) {
-  width: 260px;
-}
-.body-sec-baiane-ha *:nth-of-type(3) {
-  width: 410px;
-}
-.body-sec-baiane-ha *:nth-of-type(4),
-.body-sec-baiane-ha h6 {
-  width: 240px !important;
-}
-/* body-sec-baiane-ha [end] */
-/* sec-tow [END] */
+/* sec barname argae [END] */
