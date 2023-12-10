@@ -4,15 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="Css/style.global.css" />
     <link rel="stylesheet" href="Css/security.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- security page codes [start] -->
     <div class="container-slide">
-      <table-chart table-title="لاینسس شده استفاده" btn-show="دانلود گزارش">
-        <div slot="time-select"></div>
+      <table-chart
+        table-title="جلسات ورود به سیستم"
+        btn-show="نمایش همه"
+        text-table-one="دو دقیقه پیش"
+        text-table-two="236.125.56.78"
+        text-table-three="Chrome - Windows"
+        text-table-four="موفق"
+        text-table-five="USA(5)"
+      >
+        <div slot="header-one-title">زمان</div>
+        <div slot="header-two-title">ادرس ای پی</div>
+        <div slot="header-three-title">دستگاه</div>
+        <div slot="header-four-title">وضعیت</div>
+        <div slot="header-five-title">مکان</div>
+      </table-chart>
+
+      <table-chart
+        table-title="لاینسس شده استفاده"
+        btn-show="دانلود گزارش"
+        text-table-one2="fftt456765gjkkjhi8306767"
+        text-table-two2="دو دقیقه پیش"
+        text-table-three2="236.125.56.78"
+        text-table-four2="DSI: Swedline: Workstation 54 2"
+        text-table-five2="لاینسس شده"
+      >
+        <div slot="header-one-title">کلید ای پی ای</div>
+        <div slot="header-two-title">زمان ایجاد</div>
+        <div slot="header-three-title">ادرس ای پی</div>
+        <div slot="header-four-title">اپراتور</div>
+        <div slot="header-five-title">وضعیت</div>
+        <div class="copy-btn" slot="copy-btn"><i class="bx bxs-copy"></i></div>
       </table-chart>
     </div>
     <!-- security page codes [end] -->
