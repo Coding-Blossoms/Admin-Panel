@@ -6,10 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.js"></script>
+ 
 </head>
 <body>
 
-    <section>
+    <div class="gozaresh">
+        <button onclick="showReportpage()"><a href="#">گزارش</a></button>
+         <button onclick="showApipage()"><a href="#">کلید ای پی ای</a></button>
+    </div>
+
+    <section id="report">
         <!-- header section -->
         <div class="metting-part">
             <div class="input-meet">
@@ -97,80 +107,85 @@
     </section>
                  <!-- meeting part finish -->
 
-                 <section>
+                 <section id="report">
                     <div class="report-part">
                         <div class="report-content">
                             <h2>گزارش</h2>
-                            <div></div>   
+                            <div class="left-content">
+                                <i  class="fa-solid fa-cloud-arrow-up"></i>
+                                <button id="download">
+                                    <p>دانلود گزارش</p>
+                                </button>
+                            </div>   
 
-                             <div class="all-content">
+                             <div class="all-content" id="invoice">
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td>500</td>
+                                            <td class="warring">500</td>
                                             <td>POST /v1/invoice/in_8873_5079/invalid</td>
                                             <td>20 Jun 2023, 2:40 pm</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_4790_9109/payment</td>
                                             <td>19 Aug 2023, 6:43 am</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_6196_6184/payment</td>
                                             <td>15 Apr 2023, 11:30 am</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_8126_6463/payment</td>
                                             <td>24 Jun 2023, 10:30 am</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_6196_6184/payment</td>
                                             <td>19 Aug 2023, 11:05 am</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_8126_6463/payment</td>
                                             <td>05 May 2023, 8:43 pm</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_5719_9035/payment</td>
                                             <td>20 Dec 2023, 8:43 pm</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_5719_9035/payment</td>
                                             <td>15 Apr 2023, 6:05 pm</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>200</td>
+                                            <td class="succes">200</td>
                                             <td>POST /v1/invoices/in_8126_6463/payment</td>
                                             <td>24 Jun 2023, 2:40 pm</td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr>
-                                            <td>404 هشدار</td>
+                                            <td class="hoshdar">404 هشدار</td>
                                             <td>POST /v1/customer/c_64b78500a521f/not_found</td>
                                             <td>20 Jun 2023, 11:05 am</td>
                                         </tr>
@@ -184,8 +199,26 @@
 
 
 
+                 <!-- API PAGE START -->
+                 <section>
+                    <div class="container">
+                       <div class="api-header">
+                        <h2>ای پی ای</h2>
+                        <div class="test-mode">
+                           <div class="costom-checkbox">
+                            <input type="checkbox">
+                           </div>
+                            <p>حالت تست</p>
+                        </div>
+                       </div> 
+                    </div>
+                 </section>
 
 
-    <script src="app.js"></script>
+
+
+
+
+    <script src="index.js"></script>
 </body>
 </html>
