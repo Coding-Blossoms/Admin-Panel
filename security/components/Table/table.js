@@ -36,7 +36,7 @@ template.innerHTML = `
   </div>
   <div class="row">
   <div class="copy-btn"><slot name="copy-btn"></slot></div>
-   <p class="text-table-one2"></p>
+   <p class="text-table-one2"><slot name="text-table-one2"></slot></p>
    <p class="text-table-two2"></p>
    <p class="text-table-three2"></p>
    <p class="text-table-four2"></p>
@@ -64,8 +64,8 @@ class Table extends HTMLElement {
     //first row and first text.
     this.shadowRoot.querySelector(".text-table-one").innerHTML =
       this.getAttribute("text-table-one");
-    this.shadowRoot.querySelector(".text-table-one2").innerHTML =
-      this.getAttribute("text-table-one2");
+    // this.shadowRoot.querySelector(".text-table-one2").innerHTML =
+    //   this.getAttribute("text-table-one2");
 
     //first row and two text.
     this.shadowRoot.querySelector(".text-table-two").innerHTML =

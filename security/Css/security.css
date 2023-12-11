@@ -13,3 +13,20 @@ body{
 #table-chart{
     background-color: red;
 }
+
+#text-table-one2{
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--p-text-color);
+}
+
+.copy-btn:hover{
+    color: var(--blue-color);
+    background-color: var(--normal-text-color);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 4px;
+}
