@@ -34,9 +34,14 @@ window.onload = function() {
 // report 
 // show report page
 
-    const meetingPart = document.querySelector(".metting-part");
-    const reportPart = document.querySelector(".report-part");
-function showFirstfunc() {
+ const meetingPart = document.querySelector(".metting-part");
+ const reportPart = document.querySelector(".report-part");
+ const apiPage = document.querySelector(".container");
+
+
+
+
+function showReportpage() {
     
     if (meetingPart.style.display === "none") {
         meetingPart.style.display = "block";
@@ -46,7 +51,18 @@ function showFirstfunc() {
         reportPart.style.display = "block";
     }else{
         reportPart.style.display = "none";
+    }if (apiPage.style.display === "block") {
+        apiPage.style.display = "none";
     }
-
-    
 }
+
+// API PAGE 
+// SHOW api page
+function showApipage() {
+    if (apiPage.style.display === "none") {
+        apiPage.style.display = "block"
+    }else{
+        apiPage.style.display ="none";
+    }
+}
+
