@@ -8,22 +8,24 @@ function afterload() {
 }
 // the function for animation numbers
 function dramad() {
+  let number = 0
   for (let i = 0; i < 6841; i++) {
     setTimeout(() => {
+      number += 1  
       let dramade = (document.querySelector(
         ".box-cash-body-dramad-part:first-of-type"
-      ).children[0].innerHTML = "$" + i);
+      ).children[0].innerHTML = "$" + number);
       if (i < 81) {
         let tavize = (document.querySelector(
           ".box-cash-body-dramad-part:nth-child(2)"
-        ).children[0].innerHTML = i + "%");
+        ).children[0].innerHTML = number + "%");
       }
       if (i < 1241) {
         let hazine = (document.querySelector(
           ".box-cash-body-dramad-part:last-of-type"
-        ).children[0].innerHTML = "$" + i);
+        ).children[0].innerHTML = "$" + number);
       }
-    }, 300);
+    }, 1300);
   }
 }
 // the for creating the teamplet and start rofitThisYear func
