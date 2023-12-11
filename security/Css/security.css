@@ -9,3 +9,7 @@ body{
 .container-slide{
     width: 1320px;
 }
+
+#table-chart{
+    background-color: red;
+}
