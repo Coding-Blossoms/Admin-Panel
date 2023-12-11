@@ -1,4 +1,11 @@
 const template = document.createElement("template");
+const templateSwiperSlide = document.createElement("template");
+templateSwiperSlide.innerHTML = `
+<link rel="stylesheet" href="JS/library/swiper-bundle.min.css" />
+<div class="swiper-slide">
+  mahsa
+</div>
+`;
 
 template.innerHTML = `
 <link rel="stylesheet" href="components/Table/table.css" />
