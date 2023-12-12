@@ -15,3 +15,26 @@ body {
     flex-direction: column;
 }
 
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #636f8f;
+    flex-wrap: wrap;
+    margin-left: 150PX;
+    margin-right: 180PX;
+    margin-top: 10PX;
+    
+}
+
+#userNeeds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pageTitle div {
+    display: flex;
+    flex-direction: column;
+}
