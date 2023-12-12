@@ -87,7 +87,7 @@
    margin: 0 auto;
    margin-top: 50px;
   width: 90%;
-  height:360px;
+  height:360%;
   direction: rtl;
   padding: 60px 0px 54px 0px;
   border-radius: 9px;
@@ -206,7 +206,7 @@ table {
 .report-part{
    margin: 0 auto;
    width: 90%;
-  height:660px;
+  height:640%;
   direction: rtl;
   padding: 60px 0px 54px 0px;
   border-radius: 9px;
@@ -465,4 +465,7 @@ input:checked[type="checkbox"]::before {
 .know-more p span {
    color: var(--blue-color);
    font-size: 15px;
+}
+.content-full{
+   display: none;
 }
