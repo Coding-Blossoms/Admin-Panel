@@ -12,7 +12,7 @@ window.onload = function() {
     
 };
 
-
+// afterload function
 document.addEventListener("afterload", afterload());
 
 function afterload() {
