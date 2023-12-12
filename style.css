@@ -39,3 +39,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+#btnNew{
+    width: 109.49px;
+    height: 43.59px;
+    padding: 11.075px 20.5px;
+    background: #009ef7;
+    border: none;
+    border-radius: 12px;
+    color: #f9fafb;
+    font-size: 14.3px;
+}
