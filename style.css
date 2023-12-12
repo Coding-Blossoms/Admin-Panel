@@ -9,6 +9,7 @@
     --bg-color : #f9fafb; 
 }
 
+
 body {
     background-color: var(--bg-color);
     display: flex;
