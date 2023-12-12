@@ -1,0 +1,17 @@
+:root{
+    --body-color:#151521;
+    --normal-text-color:#f8ffff;
+    --p-text-color : #6D6D80;
+    --blue-color : #009ef7;
+    --green-color : #50cd89;
+    --red-color: #f1416c;
+    --gray-400-color :#78829D;
+    --bg-color : #f9fafb; 
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
