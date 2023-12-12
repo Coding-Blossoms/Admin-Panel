@@ -186,8 +186,131 @@
      color: var(--blue-color);
      font-size: 15px;
   }
-  .content-full{
-     
 
+  /* meeting of report page */
+  .report {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1289px;
+    min-width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    
   }
+  .metting-part {
+   margin: 0 auto;
+   margin-top: 50px;
+  width: 90%;
+  height:360%;
+  direction: rtl;
+  padding: 60px 0px 54px 0px;
+  border-radius: 9px;
+  background-color: var(--sec-color);
+  position: relative;
+  }
+
+  .input-meet {
+    position: relative;
+    border-bottom: 1px solid var(--gray-300-color);
+  }
+
+ .input-meet h2 {
+    font-size: 17px;
+    color: var(--normal-text-color);
+    font-weight: 900;
+    position: absolute;
+    bottom: 8px;
+    right: 19px;
+ }
+
+ /* left item */
+
+ .leftitem-meet{
+    float: left;
+    
+ }
+
+ /* Select option */
+ .leftitem-meet select {
+    font-size: 15px;
+    background-color: var(--gray-300-color);
+    color: var(--gray-400-color);
+    border: none;
+    padding: 4px 30px;
+    border-radius: 10px;
+    appearance: 2em;
+    outline: none;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 90px;
+ }
+/* button of leftitem */
+ .leftitem-meet button {
+   width: 100px;
+   height: 35px;
+   padding: 5px 13px;
+   border: none;
+   outline: none;
+   background-color: var(--blue-color);
+   border-radius: 10px;
+   margin-left: 10px;
+   position: absolute;
+   left: 10px;
+   bottom: 15px;
+   
+ }
+
+ .leftitem-meet button span{
+    font-size: 13px;
+    color: var(--normal-text-color);   
+ }
+
+/* step 2 */
+table {
+   border-collapse: collapse;
+}
+
+ .recent-order .detaies table tr{
+   border-bottom: 1px solid var(--gray-300-color);
+ 
+ }
+  
+.recent-order table {
+   width: 100%;
+   border-radius: 2rem;
+   padding: 1rem;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.recent-order table th{
+   color: var(--normal-text-color);
+   padding-bottom: 10px;
+   
+}
+
+.recent-order table tbody tr td{
+   color: var(--p-text-color);
+   padding-bottom: 20px;
+   padding-top: 12px;
+
+}
+
+.recent-order table .succes {
+   color: var(--green-color);
+  background-color: var(--box-shadow);
+
+}
+
+.recent-order table .warring{
+   color: var(--red-color);
+}
+
+.recent-order table .hoshdar{
+   color: var(--yellow-color);
+} 
   
