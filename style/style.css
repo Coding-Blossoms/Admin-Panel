@@ -140,3 +140,72 @@ section:first-of-type > div:nth-of-type(3) > div > div h5 {
 }
 /* part pol kashidan [end] */
 /* sec barname argae [END] */
+/* sec carbran arga shode [START] */
+section:last-of-type {
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+  background-color: var(--sec-color);
+  padding: 0 20px;
+}
+section:last-of-type > div:first-of-type {
+  display: flex;
+  background-color: var(--sec-color);
+  padding: 10px;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid var(--gray-300-color);
+  align-items: center;
+}
+section:last-of-type > div:first-of-type > div {
+  display: flex;
+  gap: 20px;
+}
+section:last-of-type > div:first-of-type > div * {
+  color: var(--p-text-color);
+}
+section:last-of-type > div:first-of-type > div li {
+  padding: 23px 0;
+}
+section:last-of-type > div:first-of-type > div li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid var(--blue-color);
+  padding: 23px 0;
+}
+.active-header-itm-sec {
+  border-bottom: 1px solid var(--blue-color);
+}
+.active-header-itm-sec a {
+  color: var(--normal-text-color) !important;
+}
+section:last-of-type > div:nth-of-type(2) {
+  display: flex;
+  padding: 20px;
+  gap: 190px;
+  border-bottom: 1px solid var(--gray-300-color);
+  align-items: center;
+}
+.body-sec-arga-dade-shode {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid var(--gray-300-color);
+}
+.body-sec-arga-dade-shode > p:nth-of-type(1) {
+  margin-left: 200px;
+  margin-right: 10px;
+}
+.body-sec-arga-dade-shode > p:nth-of-type(2) {
+  margin-left: 131px;
+}
+.body-sec-arga-dade-shode > p:nth-of-type(3) {
+  margin-left: 139px;
+}
+.body-sec-arga-dade-shode > p:nth-of-type(4) {
+  margin-left: 198px;
+}
+.body-sec-arga-dade-shode > span {
+  color: var(--green-color);
+}
+/* sec carbran arga shode [END] */
