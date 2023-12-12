@@ -1,11 +1,4 @@
 const template = document.createElement("template");
-const templateSwiperSlide = document.createElement("template");
-templateSwiperSlide.innerHTML = `
-<link rel="stylesheet" href="JS/library/swiper-bundle.min.css" />
-<div class="swiper-slide">
-  mahsa
-</div>
-`;
 
 template.innerHTML = `
 <link rel="stylesheet" href="components/Table/table.css" />
@@ -52,6 +45,22 @@ template.innerHTML = `
 </div>
 `;
 
+class SwiperSlide extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: "open" });
+    this.shadowRoot.appendChild(templateSwiperSlide.content.cloneNode(true));
+  }
+
+  connectedCallback() {
+    this.shadowRoot.querySelector(".text-right-header").innerHTML =
+      this.getAttribute("text-right-header");
+  }
+
+  static observedAttributes() {
+    return ["text-right-header"];
+  }
+}
 class Table extends HTMLElement {
   constructor() {
     super();

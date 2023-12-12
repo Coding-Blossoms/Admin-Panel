@@ -1,4 +1,5 @@
 import { Table } from "../components/Table/table.js";
+import { swiper } from "./library/custom.js";
 
 window.customElements.define("table-chart", Table);
 
