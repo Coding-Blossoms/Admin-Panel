@@ -210,6 +210,7 @@
   border-radius: 9px;
   background-color: var(--sec-color);
   position: relative;
+  margin-bottom: 20px;
   }
 
   .input-meet {
@@ -247,6 +248,7 @@
     position: absolute;
     bottom: 18px;
     left: 90px;
+    cursor: pointer;
  }
 /* button of leftitem */
  .leftitem-meet button {
@@ -261,6 +263,7 @@
    position: absolute;
    left: 10px;
    bottom: 15px;
+   cursor: pointer;
    
  }
 
@@ -313,4 +316,80 @@ table {
 .recent-order table .hoshdar{
    color: var(--yellow-color);
 } 
-  
+
+/* thred section style start */
+
+.api-key{
+    margin: 0 auto;
+    width: 99%;
+    height:600%;
+    direction: rtl;
+    padding: 60px 0px 54px 0px;
+    border-radius: 9px;
+    background-color: var(--sec-color);
+    margin-bottom: 20px;
+}
+
+.header-api-text{
+ display: flex;
+ position: relative;
+ align-items: center;
+ border-bottom: 1px solid var(--gray-300-color);
+}
+
+.header-api-text h2{
+    font-size: 19px;
+    color: var(--normal-text-color);
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+    font-weight: 900;
+    
+}
+
+/* style of tables */
+.content-api-key table{
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-api-key table thead tr th {
+    color: var(--normal-text-color);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 19px;
+}
+
+.content-api-key table  tr{
+    border-bottom: 1px solid var(--gray-300-color);
+}
+
+.condition{
+    padding-left: 220px;
+}
+
+.last-select{
+    position: relative;
+    left: 100px;
+}
+
+.last-copy{
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+
+.content-api-key table tbody tr td{
+    color: var(--p-text-color);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.last-icon{
+    position: relative;
+    left: 180px;
+    color: var(--green-color);
+}

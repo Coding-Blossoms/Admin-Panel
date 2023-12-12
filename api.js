@@ -3,6 +3,7 @@ document.addEventListener("afterload", afterload());
 
 function afterload() {
     partReport();
+    apiKeySecondsec();
   }
 
 
@@ -91,5 +92,138 @@ function partReport (params) {
         </div>
 </section>  
    
+    `
+}
+
+function apiKeySecondsec(params) {
+    document.querySelector("body").innerHTML +=`
+    <section>
+    <div class="api-key">
+        <div class="header-api-text">
+            <h2>کلید ای پی ای</h2>
+        </div>
+        <div class="content-api-key">
+        
+                            <table>
+                                <thead>
+                                    <div class="border-bottom">
+                                        <tr>
+                                            <th>برچسب</th>
+                                            <th>کلد ای پی ای</th>
+                                            <th>زمان ایجاد</th>
+                                            <th class="condition">وضعیت</th>
+                                        </tr>
+
+                                    </div>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>none set</td>
+                                        <td>	fftt456765gjkkjhi83093985</td>
+                                        <td><i class="fa-solid fa-clone" style="cursor: pointer;"></i></td>
+                                        <td class="condition">Nov 01, 2020</td>
+                                        <td class="last-icon">فعال</td>
+                                        <td><select class="last-select" name="" id="">
+                                           <option value="" id=""></option> 
+                                        </select></td>
+                                        <td><i class="fa-solid fa-clone last-copy"></i></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                       <td>Navitare</td>
+                                       <td>	jk076590ygghgh324vd33</td>
+                                       <td><i class="fa-solid fa-clone" style="cursor: pointer;"></i></td>
+                                       <td class="condition">Sep 27, 2020</td>
+                                       <td class="last-icon">	بازبینی</td>
+                                       <td><select name="" id="" class="last-select">
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                       </select></td>
+                                       <td><i class="fa-solid fa-clone last-copy" style="cursor: pointer;"></i>	</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>Docs API Key</td>
+                                       <td>		fftt456765gjkkjhi83093985</td>
+                                       <td><i class="fa-solid fa-clone" style="cursor: pointer;"></i></td>
+                                       <td class="condition">Jul 09, 2020</td>
+                                       <td class="last-icon">	غیرفعال</td>
+                                       <td><select name="" id="" class="last-select">
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                       </select></td>
+                                       <td><i class="fa-solid fa-clone last-copy" style="cursor: pointer;"></i>	</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>Identity Key</td>
+                                        <td>		jk076590ygghgh324vd3568</td>
+                                        <td><i class="fa-solid fa-clone" style="cursor: pointer;"></i></td>
+                                        <td class="condition">May 14, 2020</td>
+                                        <td class="last-icon">فعال</td>
+                                        <td><select name="" id="" class="last-select">
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                        </select></td>
+                                        <td><i class="fa-solid fa-clone last-copy" style="cursor: pointer;"></i>	</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>Remore Interface</td>
+                                        <td>		hhet6454788gfg555hhh4</td>
+                                        <td><i class="fa-solid fa-clone" style="cursor: pointer;"></i></td>
+                                        <td class="condition">Dec 30, 2019	</td>
+                                        <td class="last-icon">فعال</td>
+                                        <td><select name="" id="" class="last-select">
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                        </select></td>
+                                        <td><i class="fa-solid fa-clone last-copy" style="cursor: pointer;"></i>	</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>none set</td>
+                                        <td>		fftt456765gjkkjhi83093985</td>
+                                        <td><i class="fa-solid fa-clone" style="cursor: pointer;"></i></td>
+                                        <td class="condition">غیرفعال</td>
+                                        <td class="last-icon">	فعال</td>
+                                        <td><select name="" id="" class="last-select">
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                        </select></td>
+                                        <td><i class="fa-solid fa-clone last-copy" style="cursor: pointer;"></i>	</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>Test</td>
+                                        <td>		jk076590ygghgh324vd33</td>
+                                        <td><i class="fa-solid fa-clone" style="cursor: pointer;"></i></td>
+                                        <td class="condition">Apr 03, 2019</td>
+                                        <td class="last-icon">فعال</td>
+                                        <td><select name="" id="" class="last-select">
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                         <option value=""></option>
+                                        </select></td>
+                                        <td><i class="fa-solid fa-clone last-copy" style="cursor: pointer;"></i>	</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+    </div>
+</section>
+    
     `
 }
