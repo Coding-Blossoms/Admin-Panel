@@ -319,7 +319,7 @@ table {
 .container{
   margin: 0 auto;
   width: 90%;
-  height:460px;
+  height:500%;
   direction: rtl;
   padding: 60px 0px 54px 0px;
   border-radius: 9px;
@@ -440,7 +440,8 @@ input:checked[type="checkbox"]::before {
 
 .know-more {
    display: flex;
-   margin-top: 50px;
+   position: relative;
+   margin-top: 40px;
 
 }
 
