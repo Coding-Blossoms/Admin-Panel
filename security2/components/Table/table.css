@@ -1,0 +1,118 @@
+.table-main{
+    width: 100%;
+    background-color: var(--sec-color);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 27px;
+    border-bottom: 1px solid var(--gray-300-color);
+}
+
+.row:last-of-type{
+    border: none;
+}
+
+.left-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0px;
+}
+
+.btn-show-all{
+    width: fit-content;
+    padding: 8px 17px;
+    background-color: var(--blue-color);
+    color: var(--normal-text-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.table-title{
+    color: var(--normal-text-color);
+    font-size: calc(1.26rem + 0.12vw);
+}
+
+.time-select{
+    width: fit-content;
+    padding: 9px 25px;
+    background-color: var(--select-table-btn);
+    color: var(--select-table-text);
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin: 0px 12px;
+    border-color: var(--select-table-border-color);
+    cursor: pointer;
+}
+
+.title-header-table{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: var(--normal-text-color);
+    font-size: 17px;
+}
+
+.header-four-title{
+    translate: 70px;
+}
+
+.header-five-title{
+    translate: 170px;
+}
+
+.text-table-four{
+    translate: -36px;
+}
+
+.text-table-three{
+    translate: -60px;
+}
+
+.text-table-two{
+    translate: 70px;
+}
+
+.text-table-one{
+    translate: 145px;
+}
+
+.danger-component{
+    background-color: var(--bg-danger);
+    color: var(--red-color);
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+
+.succes-component{
+    background-color: var(--bg-succes);
+    color: var(--green-color);
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+
+.text-table-one2{
+    translate: -60px;
+}
+
+.text-table-two2, .text-table-three2{
+    translate: -40px;
+}
+
+.text-table-four2{
+    translate: -90px;
+}
+
+.copy-btn{
+    cursor: pointer;
+    color: var(--copy-color-icon);
+    font-size: 20px;
+}
+
