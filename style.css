@@ -32,7 +32,8 @@ body {
     flex-wrap: wrap;
     margin-left: 150PX;
     margin-right: 180PX;
-    margin-top: 10PX;
+    padding-top: 10PX;
+    padding-bottom: 120px;
 }
 
 #userNeeds {
@@ -84,4 +85,5 @@ body {
     display: flex;
     flex-direction: column;
     color: #f8ffff;
+    
 }
