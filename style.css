@@ -1,14 +1,21 @@
-:root{
-    --body-color:#151521;
-    --normal-text-color:#f8ffff;
-    --p-text-color : #6D6D80;
-    --blue-color : #009ef7;
-    --green-color : #50cd89;
+@font-face {
+    font-family: IRANSansXV;
+    src: url(../font/IRANSansXV.woff);
+}
+:root {
+    --body-color: #151521;
+    --normal-text-color: #f8ffff;
+    --p-text-color: #6D6D80;
+    --blue-color: #009ef7;
+    --green-color: #50cd89;
     --red-color: #f1416c;
-    --gray-400-color :#78829D;
-    --bg-color : #f9fafb; 
+    --gray-400-color: #78829D;
+    --bg-color: #f9fafb;
 }
 
+*{
+    font-family: IRANSansXV;
+  }
 
 body {
     background-color: var(--bg-color);
@@ -17,30 +24,53 @@ body {
 }
 
 
-#header{
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #636f8f;
+    background-color: #2C294B;
     flex-wrap: wrap;
     margin-left: 150PX;
     margin-right: 180PX;
     margin-top: 10PX;
+}
+
+#userNeeds {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#userNeeds i{
+    background-color: #403e5e;
+    border-radius: 14px;
+    height: 43.5px;
+    width: 43.5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    color: #f9fafb;
+
+}
+
+#searchBar {
+    margin-left: 0.5rem;
+    
+}
+#searchBar input{
+    width: 250px;
+    height: 42.92px;
+    border-radius: 14px;
+    border-style: none;
+    background: #403e5e;
+}
+
+#headerCon {
+    background-color: #2C294B;
     
 }
 
-#userNeeds{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#pageTitle div {
-    display: flex;
-    flex-direction: column;
-}
-
-#btnNew{
+#btnNew {
     width: 109.49px;
     height: 43.59px;
     padding: 11.075px 20.5px;
@@ -49,4 +79,9 @@ body {
     border-radius: 12px;
     color: #f9fafb;
     font-size: 14.3px;
+}
+#pageTitle div {
+    display: flex;
+    flex-direction: column;
+    color: #f8ffff;
 }
