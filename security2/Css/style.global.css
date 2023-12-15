@@ -62,3 +62,15 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+.blue-color{
+  color: var(--blue-color);
+}
+
+.red-color{
+  color: var(--red-color);
+}
+
+.green-color{
+  color: var(--green-color);
+}

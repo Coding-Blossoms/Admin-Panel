@@ -83,7 +83,76 @@ body{
     height: fit-content;
     background-color: var(--sec-color);
     color: var(--p-text-color);
-    padding: 16px 29px 26px;
     border-radius: 8px;
     margin-top: 30px;
+    color: var(--normal-text-color);
+
+}
+
+.situation-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.situation-user-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    border: 1px dashed var(--gray-300-color);
+    border-radius: 15px;
+    padding: 14px 0px 7px;
+}
+
+.activity-chart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0px 11px;
+}
+
+.btn-activity-left{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.25px 8px;
+    border: 1px solid var(--gray-300-color);
+    border-radius: 15px;
+    color: var(--p-text-color);
+    height: 50px;
+}
+
+
+.btn-activity-left-item:hover {
+    display: flex;
+    background-color: var(--gray-300-color);
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 7px 6px;
+}
+
+.active-items{
+    display: flex;
+    background-color: var(--gray-300-color);
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 7px 6px;
+}
+
+.nav-link-after{
+    height: 1px;
+    background-color: var(--blue-color) !important;
+}
+
+.nav-line-tabs{
+    color: var(--gray-300-color) !important;
+    border-bottom: 1px solid grey;
+    padding: 16px 29px 7px !important;
+}
+
+#myTabContent{
+    padding: 0px 29px 20px;
 }
