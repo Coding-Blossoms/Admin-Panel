@@ -74,11 +74,6 @@ var options = {
       show: false,
     },
   },
-  yaxis: {
-    title: {
-      text: "$ (thousands)",
-    },
-  },
   fill: {
     opacity: 0.8,
   },
