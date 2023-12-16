@@ -1,0 +1,45 @@
+#side-bar{
+    background-color: var(--sec-color);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.side-bar-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.side-bar-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px 32px;
+
+}
+
+.side-bar-home, .side-bar-pages ,.side-bar-tools, .side-bar-app{
+}
+
+.items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--select-table-btn);
+    width: 58px;
+    height: 58px;
+    border-radius: 22px;
+    cursor: pointer;
+    padding: 6px 0px 6px ;
+    margin-bottom: 13px;
+}
+
+.side-bar-footer{
+    padding: 32px 0 32px;
+    background-color: red;
+    bottom: 0;
+}
