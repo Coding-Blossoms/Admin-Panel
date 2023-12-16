@@ -1,0 +1,56 @@
+/* header [start] */
+header {
+  background-color: #0f0f18;
+  width: 100%;
+  height: 190px;
+  padding: 40px 0;
+}
+header > div {
+  margin: auto;
+  max-width: 1289px;
+  min-width: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header > div > div {
+  display: flex;
+}
+header > div > div:first-of-type{
+  gap: 10px;  
+}
+header > div > div:first-of-type button{
+  background-color: var(--blue-color);
+  height:40px;
+  width: 100px;
+}
+header > div > div:first-of-type a{
+  height: 40px;
+  background-color: var(--sec-color);
+  width: 40px;
+  border-radius: 13px;
+}
+header > div > div:first-of-type input {
+  background-color: var(--sec-color);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: var(--normal-text-color);
+  padding: 0 10px;
+  direction: rtl;
+  width: 190px;
+}
+header > div > div:last-of-type{
+  flex-direction: column;
+  align-items: end;
+}
+header > div > div:last-of-type h1{
+  font-size: 23px;
+  font-weight: 600;
+}
+header > div > div:last-of-type p{
+  font-size: 12px;
+  font-weight: 500;
+}
+/* header [end] */
