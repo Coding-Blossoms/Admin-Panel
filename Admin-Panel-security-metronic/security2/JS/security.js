@@ -21,7 +21,6 @@ function copyBtn() {
 
 // template of tab chart:
 const template = document.createElement("template");
-
 template.innerHTML = `
 <ul class="nav nav-line-tabs mb-5 fs-6">
 <li class="nav-item ">
@@ -132,31 +131,11 @@ template.innerHTML = `
 const templateContainer = document.querySelector(".security-chart");
 templateContainer.appendChild(template.content.cloneNode(true));
 
-const divAfterLinks = document.querySelectorAll("#nav-link-after");
-const navLink = document.querySelectorAll(".nav-link");
 const activityChartLeftItems = document.querySelectorAll(
   ".btn-activity-left-item"
 );
 
-// navLink.forEach((e) => {
-//   e.addEventListener("click", function () {
-//     divAfterLinks.forEach((ele) => {
-//       console.log(ele);
-//       ele.addEventListener("click", function () {
-//         divAfterLinks.forEach((element) => {
-//           element.classList.remove("nav-link-after");
-//           this.classList.add("nav-link-after");
-//           console.log(element);
-//         });
-//       });
-//     });
-//   });
-// });
-
-// divAfterLinks.forEach((element) => {
-//   element.classList.add("nav-link-after");
-// });
-
+// active buttons:
 activityChartLeftItems.forEach((item) => {
   item.addEventListener("click", function () {
     activityChartLeftItems.forEach((items) => {
