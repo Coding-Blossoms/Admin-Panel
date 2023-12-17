@@ -4,14 +4,14 @@ document.addEventListener("afterload", afterload());
 // function afterload
 function afterload() {
   this.dramad();
-  secBaianeHa()
+  secBaianeHa();
 }
 // the function for animation numbers
 function dramad() {
-  let number = 0
+  let number = 0;
   for (let i = 0; i < 6841; i++) {
     setTimeout(() => {
-      number += 1  
+      number += 1;
       let dramade = (document.querySelector(
         ".box-cash-body-dramad-part:first-of-type"
       ).children[0].innerHTML = "$" + number);
@@ -30,7 +30,7 @@ function dramad() {
 }
 // the for creating the teamplet and start rofitThisYear func
 function secBaianeHa() {
-document.querySelector("body").innerHTML += `  <section id="sec-baiane-ha">
+  document.querySelector("body").innerHTML += `  <section id="sec-baiane-ha">
 <div id="header-sec-baiane-ha">
   <h4>بیانیه</h4>
   <div>
@@ -73,10 +73,9 @@ document.querySelector("body").innerHTML += `  <section id="sec-baiane-ha">
 <div class="body-sec-baiane-ha">
 </div>
 </section>`;
-// start profitThisYear() function
+  // start profitThisYear() function
   profitThisYear();
 }
-
 
 // for clicked the year this changed the content
 function profit2022() {

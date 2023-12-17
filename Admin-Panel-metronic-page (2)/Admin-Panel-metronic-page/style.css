@@ -97,6 +97,7 @@
     bottom: 18px;
     left: 90px;
  }
+ 
 /* button of leftitem */
  .leftitem-meet button {
    width: 100px;
@@ -110,7 +111,6 @@
    position: absolute;
    left: 10px;
    bottom: 15px;
-   
  }
 
  .leftitem-meet button span{

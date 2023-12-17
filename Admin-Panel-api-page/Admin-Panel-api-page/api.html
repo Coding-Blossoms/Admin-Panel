@@ -1,54 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="api.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/solid.css">
-    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="api.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/solid.css" />
+    <link rel="stylesheet" href="css/brands.css" />
+    <link rel="stylesheet" href="Css/style.global.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSSS/style.global.css" />
+    <link rel="stylesheet" href="CSSS/sidebar.css" />
+    <link rel="stylesheet" href="CSSS/submenu.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- side-bar [start] -->
+    <div id="side-bar">
+      <!-- side-bar-header -->
+      <div class="side-bar-header"><img src="images/demo9.svg" alt="" /></div>
+      <!-- side-bar-main [start]-->
+      <div class="side-bar-main">
+        <!-- home [start] -->
+        <div class="side-bar-home">
+          <div class="items-container side-bar-blue">
+            <!-- logo -->
+            <i class="bx bxs-home"></i>
+            <!-- logo -->
+          </div>
+        </div>
+        <!-- home [end] -->
+        <!-- pages [start] -->
+        <div class="side-bar-pages">
+          <div class="items-container">
+            <i class="bx bx-notepad"></i>
+          </div>
+          <!-- Dropdowns -->
+          <ul id="accordion" class="accordion"></ul>
+        </div>
+        <!-- pages [end] -->
+        <!-- tools [start] -->
+        <div class="side-bar-pages">
+          <div class="items-container">
+            <i class="bx bx-loader-circle"></i>
+          </div>
+          <!-- dropdown -->
+          <ul id="accordion-tools" class="accordion-tools"></ul>
+        </div>
+        <!-- tools [end] -->
+        <!-- app [start] -->
+        <div class="side-bar-pages">
+          <div class="items-container">
+            <i class="bx bx-layer"></i>
+          </div>
+        </div>
+        <!-- app [end] -->
+        <!-- help [start] -->
+        <div class="side-bar-help">
+          <div class="items-container">
+            <i class="bx bxs-shopping-bag"></i>
+          </div>
+        </div>
+        <!-- help [end] -->
+      </div>
+      <!-- side-bar-main [end]-->
+      <!-- side-bar footer [start] -->
+      <div class="side-bar-footer">
+        <div class="side-bar-action">
+          <div class="items-container">
+            <i class="bx bxs-exit"></i>
+          </div>
+        </div>
+      </div>
+      <!-- side-bar footer [end] -->
+    </div>
+    <!-- side-bar [end] -->
+    <!-- sidebar scripts [start] -->
     <!-- API FIRST SECTION START -->
     <section>
-        <div class="container">
-          <div class="api-header">
-           <h2>ای پی ای</h2>
-           <div class="test-mode">
-              <div class="costom-checkbox">
-               <input type="checkbox">
-              </div>
-               <p>حالت تست</p>
-           </div>
-          </div> 
-          <div class="api-content">
-              <div class="right-content">
-               <h1>نحوه تنظیم کلید دسترسی</h1>
-               <p>برای بهبود پست خود ، بهبود جریان آن ، افزودن شوخ طبعی از تصاویر استفاده کنید
-              و موضوعات پیچیده را توضیح دهید
-              </p>
-               <button>شروع کردن</button>
-              </div>
-              <div class="left-content-api">
-               <h1>توسعه دهنده ابزار</h1>
-               <p>با ایجاد یک موضوع ، ایجاد یک طرح کلی ، پست وبلاگ خود را برنامه ریزی کنید
-                   تحقیق و بررسی حقایق</p>
-               <button>ساختن قانون</button>
-              </div>
-           </div>
-           <div class="know-more">
-             <button><p>احراز هویت دو فاکتیا یک لایه امنیتی اضافی به حساب شما اضافه می کند. برای ورود به سیستم، باید یک عدد شگفت انگیز 4 رقمی ارائه دهید و محصولات برجسته ای را برای ارائه خدمات به مشتریان خود ایجاد کنید. <span>بیشتر بدانید.</span></p></button>
-           </div>
-       </div>
-   </section>
-   
-
-
-
+      <div class="container">
+        <div class="api-header">
+          <h2>ای پی ای</h2>
+          <div class="test-mode">
+            <div class="costom-checkbox">
+              <input type="checkbox" />
+            </div>
+            <p>حالت تست</p>
+          </div>
+        </div>
+        <div class="api-content">
+          <div class="right-content">
+            <h1>نحوه تنظیم کلید دسترسی</h1>
+            <p>
+              برای بهبود پست خود ، بهبود جریان آن ، افزودن شوخ طبعی از تصاویر
+              استفاده کنید و موضوعات پیچیده را توضیح دهید
+            </p>
+            <button>شروع کردن</button>
+          </div>
+          <div class="left-content-api">
+            <h1>توسعه دهنده ابزار</h1>
+            <p>
+              با ایجاد یک موضوع ، ایجاد یک طرح کلی ، پست وبلاگ خود را برنامه
+              ریزی کنید تحقیق و بررسی حقایق
+            </p>
+            <button>ساختن قانون</button>
+          </div>
+        </div>
+        <div class="know-more">
+          <button>
+            <p>
+              احراز هویت دو فاکتیا یک لایه امنیتی اضافی به حساب شما اضافه می
+              کند. برای ورود به سیستم، باید یک عدد شگفت انگیز 4 رقمی ارائه دهید
+              و محصولات برجسته ای را برای ارائه خدمات به مشتریان خود ایجاد کنید.
+              <span>بیشتر بدانید.</span>
+            </p>
+          </button>
+        </div>
+      </div>
+    </section>
 
     <script src="api.js"></script>
-</body>
+    <!-- tooltip library CDN (tippyjs) -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <!-- bootstrap script -->
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <!-- jquery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JS/submenu.js"></script>
+  </body>
 </html>

@@ -6,7 +6,7 @@ const accordionTools = document.querySelector(".accordion-tools");
 templateSub.innerHTML = `
 <h3 class="accordion-title">صفحات</h3>
 <!-- first item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
@@ -44,7 +44,7 @@ templateSub.innerHTML = `
 <!-- first item [end] -->
 
 <!-- second item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
@@ -82,7 +82,7 @@ templateSub.innerHTML = `
 <!-- second item [end] -->
 
 <!-- third item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
@@ -120,7 +120,7 @@ templateSub.innerHTML = `
 <!-- third item [end] -->
 
 <!-- fourth item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
@@ -161,7 +161,7 @@ templateSub.innerHTML = `
 templateTools.innerHTML = `
 <h3 class="accordion-title">صفحات</h3>
 <!-- first item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
@@ -199,7 +199,7 @@ templateTools.innerHTML = `
 <!-- first item [end] -->
 
 <!-- second item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
@@ -237,7 +237,7 @@ templateTools.innerHTML = `
 <!-- second item [end] -->
 
 <!-- third item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
@@ -275,7 +275,7 @@ templateTools.innerHTML = `
 <!-- third item [end] -->
 
 <!-- fourth item [start] -->
-<li>
+<li class="list-items-sub">
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">

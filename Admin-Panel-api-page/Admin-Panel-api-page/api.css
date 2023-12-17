@@ -49,6 +49,7 @@
     position: relative;
     margin-top: 30px;
     margin-bottom: 20px;
+    z-index: -100;
   }
   
   .api-header{
@@ -212,6 +213,7 @@
   background-color: var(--sec-color);
   position: relative;
   margin-bottom: 20px;
+  z-index: -100;
   }
 
   .input-meet {
@@ -329,7 +331,7 @@ table {
     border-radius: 9px;
     background-color: var(--sec-color);
     margin-bottom: 20px;
-    
+    z-index: -100;
 }
 
 .header-api-text{
@@ -346,7 +348,6 @@ table {
     bottom: 1px;
     right: 20px;
     font-weight: 900;
-    
 }
 
 /* style of tables */
