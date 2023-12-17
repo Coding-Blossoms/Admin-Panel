@@ -206,4 +206,92 @@ header > div > div:last-of-type p{
 #header-continer>div:last-of-type a:first-of-type{
   margin-right: 20px;
 }
+.left-moraajat > a > i{
+  color: var(--normal-text-color);
+  margin-left: 13px;
+  margin-top: 10px;
+}
+.modal-bell{
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  position: relative;
+  right: 200px;
+  top: 20px;
+  width: 350px;
+  height: 440px;
+  background-color: var(--sec-color);
+  border-radius: 15px;
+  display: none;
+}
+.modal-bell img{
+   width: 349px;
+   height: 100px;
+   margin-top: px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+}
+.modal-bell span{
+  position: absolute;
+  top: 19px;
+  right: 20px;
+  color: var(--normal-text-color);
+}
+.modal-bell .gozaresh-morajat {
+  display: inline;
+  position: absolute;
+  font-size: 10px;
+  top: 15px;
+  right: 90px;
+  color: var(--normal-text-color);
+}
+.modal-page{
+  display: flex;
+  
+}
+.modal-page p{
+  width: 50px;
+  height: 15px;
+  padding: 20px;
+  color: var(--p-text-color);
+  font-size: 13px;
+  position: relative;
+  bottom: 76px;
+  left: 80px;
+  color: var(--normal-text-color);
+}
+.modal-page p:hover{
+  border-bottom: 1px solid var(--blue-color);
+  transition-duration: 0.6s;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content h2{
+  font-size: 17px;
+  font-weight: 800;
+  bottom: 50px;
+  position: relative;
+}
+.modal-content p{
+  font-size: 12px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom: 50px;
+  position: relative;
+}
+.modal-content button{
+  bottom: 50px;
+  position: relative;
+}
+.modal-content img{
+  width:  150px;
+  height: 150px;
+  bottom: 30px;
+  position: relative;
+}
 /* header [end] */
