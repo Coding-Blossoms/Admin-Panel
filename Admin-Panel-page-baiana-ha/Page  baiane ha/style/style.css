@@ -1,6 +1,7 @@
 /* sec-first [END] */
 #sec-first {
   gap: 50px;
+  margin: auto auto auto 250px;
 }
 /* factor part [start] */
 #factor-part {
@@ -127,7 +128,7 @@
 /* sec-tow [START] */
 #sec-baiane-ha {
   flex-direction: column;
-  margin-top: 20px;
+  margin: 20px auto auto 250px;
   direction: rtl;
 }
 /* header-sec-biane-ha [start] */
