@@ -8,13 +8,15 @@ bellIcon.addEventListener("click" , function (params) {
     }else(modalBel.style.display="none");
 });
 
-// event
+// modal show
 addEventListener("load", afterLoad);
 
 // function
 function afterLoad() {
   dramad();
 }
+
+// event
 function dramad() {
   let number = 0;
   for (let i = 0; i < 4500; i++) {
@@ -36,4 +38,13 @@ function dramad() {
     }, 1300);
   }
 }
+// second modal
+const secondModal = document.querySelector(".modal-erteqa");
+const iconXmark = document.querySelector(".fa-xmark")
+function  erteqaModal()  {
+    if (secondModal.style.visibility==="hidden") {
+        secondModal.style.visibility="visible"
+    }else(secondModal.style.visibility="hidden")
+}
+
 
