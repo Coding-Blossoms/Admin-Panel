@@ -2,6 +2,11 @@
 * {
   direction: rtl;
 }
+
+.section-moragat{
+  margin:50px 140px 0px 50px;
+  padding: 20px;
+}
 /* global css [END] */
 /* sec barname argae [START] */
 section:first-of-type {

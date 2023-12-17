@@ -10,32 +10,32 @@ templateSub.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
+    <span class="bullet-sub"></span>
       <span class="link-title">کاربر پروفایل</span>
-      <span class="bullet-sub"></span>
     </div>
   </div>
   <ul class="submenu">
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
@@ -48,32 +48,32 @@ templateSub.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
-      <span class="link-title">اکانت</span>
-      <span class="bullet-sub"></span>
+    <span class="bullet-sub"></span>
+      <span class="link-title">احراز هویت</span>
     </div>
   </div>
   <ul class="submenu">
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
@@ -86,32 +86,32 @@ templateSub.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
-      <span class="link-title">اکانت</span>
-      <span class="bullet-sub"></span>
+    <span class="bullet-sub"></span>
+      <span class="link-title">سیستم یوزر</span>
     </div>
   </div>
   <ul class="submenu">
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
@@ -124,32 +124,32 @@ templateSub.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
-      <span class="link-title">اکانت</span>
-      <span class="bullet-sub"></span>
+    <span class="bullet-sub"></span>
+      <span class="link-title">مرکز تماس</span>
     </div>
   </div>
   <ul class="submenu">
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
-    <li>
+    <li class="list-items-sub">
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
@@ -165,32 +165,32 @@ templateTools.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
+    <span class="bullet-sub"></span>
       <span class="link-title">کاربر پروفایل</span>
-      <span class="bullet-sub"></span>
     </div>
   </div>
   <ul class="submenu">
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
@@ -203,32 +203,32 @@ templateTools.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
-      <span class="link-title">اکانت</span>
-      <span class="bullet-sub"></span>
+    <span class="bullet-sub"></span>
+      <span class="link-title">مرکز تماس</span>
     </div>
   </div>
   <ul class="submenu">
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
@@ -241,32 +241,32 @@ templateTools.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
-      <span class="link-title">اکانت</span>
-      <span class="bullet-sub"></span>
+    <span class="bullet-sub"></span>
+      <span class="link-title">سیستم یوزر</span>
     </div>
   </div>
   <ul class="submenu">
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
@@ -279,32 +279,32 @@ templateTools.innerHTML = `
   <div class="link">
     <i class="bx bxs-chevron-down"></i>
     <div class="link-container-title">
-      <span class="link-title">اکانت</span>
-      <span class="bullet-sub"></span>
+    <span class="bullet-sub"></span>
+      <span class="link-title">احراز هویت</span>
     </div>
   </div>
   <ul class="submenu">
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">بررسی اجمالی</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">پروژه ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
     <li>
       <a href="#">
         <div class="submenu-container">
+        <span class="bullet-sub"></span>
           <span class="title-sub">کمپین ها</span>
-          <span class="bullet-sub"></span>
         </div>
       </a>
     </li>
