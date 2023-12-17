@@ -201,7 +201,6 @@ header > div > div:last-of-type p{
 }
 #header-continer>div:last-of-type a:hover{
   border-bottom: 2px solid var(--blue-color);
-  color: var(--blue-color);
 }
 #header-continer>div:last-of-type a:first-of-type{
   margin-right: 20px;
