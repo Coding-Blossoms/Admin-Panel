@@ -59,6 +59,7 @@
   border-radius: 9px;
   background-color: var(--sec-color);
   position: relative;
+  z-index: -100;
   }
 
   .input-meet {
@@ -78,8 +79,7 @@
  /* left item */
 
  .leftitem-meet{
-    float: left;
-    
+    float: left; 
  }
 
  /* Select option */
@@ -179,13 +179,14 @@ table {
   position: relative;
   margin-top: 30px;
   margin-bottom: 15px;
+  z-index: -100;
 }
 
 .report-content h2{
    font-size: 20px;
    color: var(--normal-text-color);
    font-weight: 800;
-   position: absolute;
+   padding-right: 14px;
    top: 7px;
    right: 19px;
 }
