@@ -8,11 +8,13 @@
 .side-bar-pages{
    position: relative;
    padding: 0px 30px;
+   transition: all .4s;
 }
 
-.accordion {
+.accordion ,.accordion-tools{
    display: none;
    top: 0;
+   overflow: hidden;
     width: 100%;
     right: 100%;
     min-width: 300px;
@@ -22,13 +24,17 @@
     padding: 18px 20px 20px 0px;
     position: absolute;
     box-shadow: var(--bs-menu-dropdown-box-shadow);
-   }
-   
-   .side-bar-pages:hover .accordion{
+    transition: opacity 0.5s, max-height 0.5s;
+}
+
+.side-bar-pages:hover .accordion{
+   display: block;
+}
+.side-bar-pages:hover .accordion-tools{
    display: block;
 }
 
-.accordion .link {
+.link {
    cursor: pointer;
    display: flex;
    justify-content: flex-end;
@@ -41,11 +47,11 @@
    transition: all 0.4s ease;
 }
 
-.accordion li:last-child .link {
+li:last-child .link {
    border-bottom: 0;
 }
 
-.accordion li i {
+li i {
    position: absolute;
    top: 16px;
    left: 12px;
@@ -56,19 +62,19 @@
    transition: all 0.4s ease;
 }
 
-.accordion li i.fa-chevron-down {
+li i.fa-chevron-down {
    left: auto;
    font-size: 12px;
 }
 
-.accordion li.open i.bxs-chevron-down {
+li.open i.bxs-chevron-down {
    -webkit-transform: rotate(180deg);
    -ms-transform: rotate(180deg);
    -o-transform: rotate(180deg);
    transform: rotate(180deg);
 }
 
-.accordion li.default .submenu {display: block;}
+ li.default .submenu {display: block;}
 /**
 * Submenu
 -----------------------------*/
