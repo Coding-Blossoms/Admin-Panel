@@ -4,5 +4,4 @@
 > The pages we hit :
 [Report](https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/account/logs.html) - [api](https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/account/api-keys.html) - [referrals](https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/account/referrals.html ) - [statements](https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/account/statements.html) -[ security](https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/account/security.html)
  <br>
-## TODO :
-add this page : https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/#
+TODO : add this page : https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/
