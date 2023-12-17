@@ -8,6 +8,11 @@ body{
 
 .container-slide{
     width: 1285px;
+    margin-right: 130px;
+}
+
+.container-security-page{
+    padding: 0px 0px 30px;
 }
 
 #text-table-one2{
