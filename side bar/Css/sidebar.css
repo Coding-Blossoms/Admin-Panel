@@ -4,6 +4,10 @@
     top: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .side-bar-header{
@@ -11,6 +15,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
+    padding-bottom: 30px;
 }
 
 .side-bar-main{
@@ -19,13 +24,11 @@
     justify-content: center;
     align-items: center;
     padding: 32px 0px 32px;
-
-}
-
-.side-bar-home, .side-bar-pages ,.side-bar-tools, .side-bar-app{
 }
 
 .items-container{
+    font-size: calc(1.325rem + 0.5vw) !important;
+    color: var(--icon-side-bar);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,8 +41,11 @@
     margin-bottom: 13px;
 }
 
+.side-bar-blue{
+    color: #4DBBF9;
+    background-color: var(--blue-color);
+}
+
 .side-bar-footer{
     padding: 32px 0 32px;
-    background-color: red;
-    bottom: 0;
 }

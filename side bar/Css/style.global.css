@@ -6,6 +6,7 @@
 :root {
   --body-color: #151521;
   --normal-text-color: #f8ffff;
+  --icon-side-bar: #474761;
   --p-text-color: #6d6d80;
   --blue-color: #009ef7;
   --green-color: #50cd89;
@@ -19,6 +20,7 @@
   --bg-danger: #3a2434;
   --bg-succes: #1c3238;
   --copy-color-icon: #565674;
+  --bs-menu-dropdown-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
 }
 * {
   font-family: IRANSansXV;
