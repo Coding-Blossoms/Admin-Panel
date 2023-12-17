@@ -60,11 +60,11 @@ header > div > div:last-of-type p{
 #personal-description-sec{
   direction: rtl;
   background-color: var(--sec-color);
-  margin: -90px auto;
+  margin: -110px auto;
   width: 1289px;
   display: flex;
   padding: 25px 0;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   justify-content: space-between;
 }
 #personal-description-sec>div:first-of-type{
@@ -176,5 +176,34 @@ header > div > div:last-of-type p{
  position: relative;
  right: 30px;
  background-color: var(--green-color);
+}
+#header-continer{
+  display: flex;
+  flex-direction: column;
+}
+#header-continer>div:last-of-type{
+  margin-top: 110px;
+  display: flex;
+  width: 1289px;
+  background-color: var(--sec-color);
+  margin: 110px auto;
+  direction: rtl;
+  border-radius: 0 0 10px 10px;
+  gap: 30px;
+}
+#header-continer>div:last-of-type a{
+  color: var(--p-text-color);
+  height: 56px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+#header-continer>div:last-of-type a:hover{
+  border-bottom: 2px solid var(--blue-color);
+  color: var(--blue-color);
+}
+#header-continer>div:last-of-type a:first-of-type{
+  margin-right: 20px;
 }
 /* header [end] */
