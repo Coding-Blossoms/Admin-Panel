@@ -1,11 +1,62 @@
-// event
+
+// show modal of bell icon
+const bellIcon = document.querySelector("#bell-icon");
+const modalBel = document.querySelector(".modal-bell");
+bellIcon.addEventListener("click" , function (params) {
+    if (modalBel.style.display==="none") {
+        modalBel.style.display="block"
+    }else(modalBel.style.display="none");
+});
+
+// modal show
 addEventListener("load", afterLoad);
 
 // function
 function afterLoad() {
+  dramad1();
   dramad();
   addTemplateSEC2();
 }
+
+// event
+function dramad1(){
+  let number = 0;
+  for (let i = 0; i < 4500; i++) {
+    setTimeout(() => {
+      number += 1;
+      let dramade1 = (document.querySelector(
+        "#DPN-part>div:nth-of-type(1) h3"
+      ).innerHTML = "$" + number);
+      if (i < 81) {
+        let proje1 = (document.querySelector(
+          "#DPN-part>div:nth-of-type(2) h3"
+        ).innerHTML = number);
+      }
+      if (i < 61) {
+        let nartheMovafaghet1 = (document.querySelector(
+          "#DPN-part>div:nth-of-type(3) h3"
+        ).innerHTML = "%" + number);
+      }
+    }, 1300);
+  }
+}
+// second modal
+const secondModal = document.querySelector(".modal-erteqa");
+const iconXmark = document.querySelector(".fa-xmark")
+function  erteqaModal()  {
+    if (secondModal.style.visibility==="hidden") {
+        secondModal.style.visibility="visible"
+    }else(secondModal.style.visibility="hidden")
+}
+
+
+
+
+// event
+addEventListener("load", afterLoad);
+
+// function
+
 function copyLinkSECBarnameArga() {
   let urlSECBarnameArga = document.querySelector("#urlInput");
   urlSECBarnameArga.select();
