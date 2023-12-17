@@ -52,7 +52,7 @@
   .metting-part {
    margin: 0 auto;
    margin-top: 50px;
-  width: 90%;
+  max-width: 1220px;
   height:360%;
   direction: rtl;
   padding: 60px 0px 54px 0px;
@@ -170,7 +170,7 @@ table {
 /* report part start */
 .report-part{
    margin: 0 auto;
-   width: 90%;
+  max-width: 1220px;
   height:640%;
   direction: rtl;
   padding: 60px 0px 54px 0px;
