@@ -53,9 +53,128 @@ header > div > div:last-of-type p{
   font-size: 12px;
   font-weight: 500;
 }
-.left-morajat > a > i{
+#header-continer{
+  display: flex;
+  flex-direction: column;
+}
+#personal-description-sec{
+  direction: rtl;
+  background-color: var(--sec-color);
+  margin: -90px auto;
+  width: 1289px;
+  display: flex;
+  padding: 25px 0;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+#personal-description-sec>div:first-of-type{
+  display: flex;
+  margin-right: 25px;
+}
+#personal-description-sec>div:first-of-type>img{
+  width: 160px;
+  border-radius: 10px;
+}
+#personal-description-sec>div:first-of-type>div{
+  display: flex;
+  margin-right: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+#personal-description-sec>div:first-of-type>div>a{
   color: var(--normal-text-color);
-  margin-left: 13px;
-  margin-top: 10px;
+  font-size: 19.5px;
+  font-weight: 600;
+}
+#personal-description-sec>div:first-of-type>div a:hover{
+  color: var(--blue-color);
+}
+#personal-description-sec>div:first-of-type>div>div{
+  display: flex;
+  gap: 15px;
+}
+#personal-description-sec>div:first-of-type>div>div a{
+  color: #474761;
+  font-size: 14px;
+}
+#personal-description-sec>div:first-of-type>div>div:last-of-type{
+  display: flex;
+  gap: 20px;
+}
+#personal-description-sec>div:first-of-type>div>div:last-of-type>div{
+  border: 1px dashed var(--gray-300-color);
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 51px;
+  border-radius: 10px;
+}
+#personal-description-sec>div:first-of-type>div>div:last-of-type p{
+  padding: 0;
+  margin: 0;
+  color: #474761;
+}
+#personal-description-sec>div:last-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#personal-description-sec>div:last-of-type>div:first-of-type{
+  display: flex;
+  gap: 10px;
+  margin-right: 150px;
+}
+#personal-description-sec>div:last-of-type>div:first-of-type a:last-of-type{
+  width: 25px;
+}
+#personal-description-sec>div:last-of-type>div:first-of-type a{
+  background-color: #2B2B40;
+  color: var(--p-text-color);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#personal-description-sec>div:last-of-type>div:first-of-type button{
+  background-color: var(--blue-color);
+  padding: 0 20px;
+}
+#personal-description-sec>div:last-of-type>div:last-of-type{
+  display: flex;
+  flex-direction: column;
+}
+#personal-description-sec>div:last-of-type>div:last-of-type div:first-of-type{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+}
+#personal-description-sec>div:last-of-type>div:last-of-type>div:first-of-type span{
+  color: var(--normal-text-color);
+}
+#personal-description-sec>div:last-of-type>div:last-of-type>div:first-of-type p{
+  font-weight: 360;
+  margin-right: 30px;
+}
+#personal-description-sec>div:last-of-type>div:last-of-type>div:last-of-type{
+  display: flex;
+}
+#darsad-sod{
+  display: flex;
+  gap: 0;
+}
+#darsad-sod>div{
+  width: 200px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #2B2B40;
+}
+#darsad-sod>div:last-of-type{
+  margin-left: 25px;
+}
+#darsad-sod>div:first-of-type{
+ position: relative;
+ right: 30px;
+ background-color: var(--green-color);
 }
 /* header [end] */
