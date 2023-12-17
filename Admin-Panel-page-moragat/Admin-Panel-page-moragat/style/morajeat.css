@@ -61,8 +61,7 @@ header > div > div:last-of-type p{
 #header-continer{
   display: flex;
   flex-direction: column;
-  margin-right: 70px ;
-  height: 130px;
+  height: 180px;
 }
 #personal-description-sec{
   direction: rtl;
@@ -433,9 +432,18 @@ header > div > div:last-of-type p{
   direction: rtl;
 }
 
+.fix-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+
 .section-moragat{
-  margin:50px 140px 0px 50px;
+  /* margin:50px 140px 0px 50px; */
   padding: 20px;
+  margin: 0;
 }
 /* global css [END] */
 /* sec barname argae [START] */
@@ -443,7 +451,6 @@ section:first-of-type {
   background-color: var(--sec-color);
   flex-direction: column;
   gap: 26px;
-  margin-right: 300px;
 }
 section:first-of-type > h1 {
   font-weight: 600;
@@ -582,7 +589,6 @@ section:last-of-type {
   width: 100%;
   padding: 0;
   margin-top: 30px;
-  margin-right: 300px;
   background-color: var(--sec-color);
   padding: 0 20px;
 }
