@@ -22,6 +22,7 @@
     --gray-300-color:#2b2b40;
     --card-padding:1.8rem;
     --yellow-color: rgb(218, 218, 31);
+    --select-color:#232335;
 
    
 
@@ -39,7 +40,7 @@
 
 .container{
     margin: 0 auto;
-    width: 90%;
+    max-width: 1220px;
     height:500%;
     direction: rtl;
     padding: 60px 0px 54px 0px;
@@ -203,7 +204,7 @@
   .metting-part {
    margin: 0 auto;
    margin-top: 50px;
-  width: 90%;
+   max-width: 1220px;
   height:360%;
   direction: rtl;
   padding: 60px 0px 54px 0px;
@@ -321,13 +322,14 @@ table {
 
 .api-key{
     margin: 0 auto;
-    width: 99%;
+    max-width: 1220px;
     height:600%;
     direction: rtl;
     padding: 60px 0px 54px 0px;
     border-radius: 9px;
     background-color: var(--sec-color);
     margin-bottom: 20px;
+    
 }
 
 .header-api-text{
@@ -378,6 +380,8 @@ table {
 
 .last-copy{
     position: relative;
+    width: 31px;
+    height: 30px;
     left: 50px;
     cursor: pointer;
 }
@@ -393,3 +397,37 @@ table {
     left: 180px;
     color: var(--green-color);
 }
+
+.last-select{
+   border: none;
+   background-color: var(--select-color);
+   color: var(--p-text-color);
+   padding: 5px 13px;
+   border-radius:  10px;
+   cursor: pointer;
+}
+
+.last-select:hover{
+   background-color: var(--gray-300-color);
+}
+.coloricon:hover{
+   color: var(--blue-color);
+   background-color: var(--normal-text-color);
+   padding: 8px 8px;
+   border-radius: 10px;
+   transition-duration: 0.5s;
+}
+#url-input , #url-input-two ,  #url-input-three ,  #url-input-four ,  #url-input-five ,  #url-input-six , #url-input-seven
+{
+   background-color: var(--sec-color);
+   border: none;
+   outline: none;
+   color: var(--p-text-color);
+   font-size: 15px;
+
+ }
+ .first-td .fa-check{
+   display: none;
+ }
+
+
