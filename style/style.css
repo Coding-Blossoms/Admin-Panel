@@ -53,4 +53,9 @@ header > div > div:last-of-type p{
   font-size: 12px;
   font-weight: 500;
 }
+.left-morajat > a > i{
+  color: var(--normal-text-color);
+  margin-left: 13px;
+  margin-top: 10px;
+}
 /* header [end] */
