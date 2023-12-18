@@ -23,15 +23,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* section style */
-section {
-  margin: auto;
-  max-width: 1289px;
-  min-width: 38px;
-  display: flex;
-  flex-wrap: wrap;
-}
-/* alment style */
+
 p {
   color: var(--p-text-color);
   font-size: 15px;

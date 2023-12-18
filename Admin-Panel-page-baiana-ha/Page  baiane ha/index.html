@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>قالب مدیرتی مترونیک - ساتراس وب</title>
+    <link rel="stylesheet" href="Css/fontawesome.css" />
+    <link rel="stylesheet" href="Css/solid.css" />
+    <link rel="stylesheet" href="Css/brands.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/header.css" />
     <link rel="stylesheet" href="style/style.global.css" />
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="Css/style.global.css" />
@@ -16,71 +20,220 @@
     <link rel="stylesheet" href="Css/submenu.css" />
   </head>
   <body>
-    <!-- sec factor and dramad [END]-->
-    <section id="sec-first">
-      <div id="factor-part">
-        <div><h1>فاکتورها</h1></div>
-        <p>بارگیری جدا از ترتیب موضوعات جالب عالی فاکتور</p>
-        <div>
-          <select>
-            <option value="">Individual خریدer اکانت</option>
-            <option value="1">هزینه بسته شدن متغیر</option>
-            <option value="2">حداقل هزینه مراجعه</option>
-          </select>
-          <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="22"
-              height="23"
-              viewBox="0 0 22 23"
-              fill="none"
-            >
-              <path
-                d="M20.2437 10.021L21.3276 11.105C21.7866 11.564 21.7866 12.3062 21.3276 12.7603L11.8403 22.2525C11.3813 22.7115 10.6392 22.7115 10.1851 22.2525L0.692871 12.7603C0.233887 12.3013 0.233887 11.5591 0.692871 11.105L1.77686 10.021C2.24072 9.55716 2.99756 9.56692 3.45166 10.0406L9.05713 15.9243V1.89114C9.05713 1.24173 9.57959 0.719269 10.229 0.719269H11.7915C12.4409 0.719269 12.9634 1.24173 12.9634 1.89114V15.9243L18.5688 10.0406C19.023 9.56204 19.7798 9.55228 20.2437 10.021Z"
-                fill="url(#paint0_linear_777_350)"
+    <!-- header [start] -->
+    <header>
+      <div>
+        <div class="left-moraajat">
+          <button>هدف جدید</button>
+          <a href="#"><i class="fa-solid fa-moon"></i></a>
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="#">
+            <i id="bell-icon" class="fa-solid fa-bell"></i>
+            <div class="modal-bell">
+              <img
+                src="img/header/197f25c5-1cd4-469c-9794-3fc4cdf359b1.png"
+                alt=""
               />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_777_350"
-                  x1="11"
-                  y1="22"
-                  x2="11"
-                  y2="8"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#DEDEDE" />
-                  <stop offset="1" stop-color="#DEDEDE" stop-opacity="0.12" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div id="darmad-part">
-        <div id="title-dramad-part"><h1>درآمد</h1></div>
-        <div id="body-dramad-part">
-          <p>درآمد 30 روز گذشته محاسبه شده است. جدا از ترتیب ترتیب موضوعات.</p>
-          <div>
-            <div>
-              <div class="box-cash-body-dramad-part">
-                <h1>$</h1>
-                <p>درآمد</p>
+              <span>اعلان ها</span>
+              <p class="gozaresh-morajat">24 گزارش</p>
+              <div class="modal-page">
+                <div><p>هشدار ها</p></div>
+                <div><p>بروزرسانی</p></div>
+                <div><p>گزارش</p></div>
               </div>
-              <div class="box-cash-body-dramad-part">
-                <h1>%</h1>
-                <p>تعویض</p>
-              </div>
-              <div class="box-cash-body-dramad-part">
-                <h1>$</h1>
-                <p>هزینه ها</p>
+              <div class="modal-content">
+                <h2>دسترسی حرفه ای را دریافت کنید</h2>
+                <p>
+                  رئوس مطالب شما را صادق نگه می دارد. آنها جلوی شگفت انگیز بودن
+                  شما درمورد رانندگی را می گیرند
+                </p>
+                <button onclick="erteqaModal()">ارتقا دهید</button>
+                <img src="img/header/1.png" alt="" />
               </div>
             </div>
-            <button><a href="#" target="_blank">برداشت درآمد</a></button>
-          </div>
+            <div class="modal-erteqa">
+              <i class="fa-solid fa-xmark"></i>
+              <h2>یک برنامه را ارتقا کنید</h2>
+              <p>
+                اگر به اطلاعات لازم دارید ، لطفاً بررسی کنید<span
+                  >دستورالعمل قیمت گذاری.</span
+                >
+              </p>
+              <div class="years-erteqa">
+                <p>ماهانه</p>
+                <p>سالانه</p>
+              </div>
+              <div class="right-erteqa">
+                <div>
+                  <p>39 ت</p>
+                  <p>استارت آپ</p>
+                </div>
+                <div>
+                  <p>339ت</p>
+                  <p>پیشرفته</p>
+                </div>
+                <div>
+                  <p>999ت</p>
+                  <p>شرکتو پروژه</p>
+                </div>
+                <div>
+                  <p class="sefaresh-erteqa">سفارش با ما</p>
+                  <p>سفارشی</p>
+                </div>
+              </div>
+              <div class="left-erteqa">
+                <h2>برنامه ی استارت اپ شما چیست؟</h2>
+                <p>بهینه برای تیم بیش از 10 نفر و استارت آپ جدید</p>
+                <p>فعال ترین کاربران</p>
+                <p>حداکثر 30 ادغام پروژه</p>
+                <p>ماژول تجزیه و تحلیل</p>
+                <p>ماژول دارایی ، مالیه ، سرمایه گذاری</p>
+                <p>ماژول حسابداری</p>
+                <p>بستر شبکه</p>
+                <p>فضای نامحدود ابر</p>
+              </div>
+              <div class="eseraf-erteqa">
+                <div><p>ارتقا سطح</p></div>
+                <div><p>انصراف</p></div>
+              </div>
+            </div>
+          </a>
+          <input type="text" placeholder="جستجو کن" />
+        </div>
+        <div>
+          <h1>مراجعات</h1>
+          <p>خانه - صفحات - اکانت - مراجعات</p>
         </div>
       </div>
-    </section>
-    <!-- sec factor and dramad [END]-->
+    </header>
+    <div class="fix-container">
+      <div id="header-continer">
+        <div id="personal-description-sec">
+          <div>
+            <img src="img/header/300-1.jpg" alt="header" />
+            <div>
+              <a href="#"> جلالی</a>
+              <div>
+                <a href="#">توسعه دهنده</a>
+                <a href="#">منطقه زندگی</a>
+                <a href="#">max@kt.com</a>
+              </div>
+              <div id="DPN-part">
+                <div>
+                  <h3></h3>
+                  <p>درآمد</p>
+                </div>
+                <div>
+                  <h3></h3>
+                  <p>پروژه ها</p>
+                </div>
+                <div>
+                  <h3></h3>
+                  <p>نرخ موفقیت</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href="#">دنبال کردن</a>
+              <button>من را استخدام کن</button>
+              <a href="#"></a>
+            </div>
+            <div>
+              <div>
+                <p>تکمیل پروفایل</p>
+                <span>50%</span>
+              </div>
+              <div id="darsad-sod">
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="#">بررسی اجمالی</a>
+          <a href="#"> تنظیمات </a>
+          <a href="#"> امنیت</a>
+          <a href="#"> فعالیت</a>
+          <a href="#"> صورتحساب</a>
+          <a href="#"> بیانه ها</a>
+          <a href="#"> مراجعات</a>
+          <a href="#"> کلید ای پی ای</a>
+          <a href="#"> گزارش</a>
+        </div>
+      </div>
+
+      <!-- header [end] -->
+      <!-- sec factor and dramad [END]-->
+      <section id="sec-first">
+        <div id="factor-part">
+          <div><h1>فاکتورها</h1></div>
+          <p>بارگیری جدا از ترتیب موضوعات جالب عالی فاکتور</p>
+          <div>
+            <select>
+              <option value="">Individual خریدer اکانت</option>
+              <option value="1">هزینه بسته شدن متغیر</option>
+              <option value="2">حداقل هزینه مراجعه</option>
+            </select>
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="23"
+                viewBox="0 0 22 23"
+                fill="none"
+              >
+                <path
+                  d="M20.2437 10.021L21.3276 11.105C21.7866 11.564 21.7866 12.3062 21.3276 12.7603L11.8403 22.2525C11.3813 22.7115 10.6392 22.7115 10.1851 22.2525L0.692871 12.7603C0.233887 12.3013 0.233887 11.5591 0.692871 11.105L1.77686 10.021C2.24072 9.55716 2.99756 9.56692 3.45166 10.0406L9.05713 15.9243V1.89114C9.05713 1.24173 9.57959 0.719269 10.229 0.719269H11.7915C12.4409 0.719269 12.9634 1.24173 12.9634 1.89114V15.9243L18.5688 10.0406C19.023 9.56204 19.7798 9.55228 20.2437 10.021Z"
+                  fill="url(#paint0_linear_777_350)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_777_350"
+                    x1="11"
+                    y1="22"
+                    x2="11"
+                    y2="8"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#DEDEDE" />
+                    <stop offset="1" stop-color="#DEDEDE" stop-opacity="0.12" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="darmad-part">
+          <div id="title-dramad-part"><h1>درآمد</h1></div>
+          <div id="body-dramad-part">
+            <p>
+              درآمد 30 روز گذشته محاسبه شده است. جدا از ترتیب ترتیب موضوعات.
+            </p>
+            <div>
+              <div>
+                <div class="box-cash-body-dramad-part">
+                  <h1>$</h1>
+                  <p>درآمد</p>
+                </div>
+                <div class="box-cash-body-dramad-part">
+                  <h1>%</h1>
+                  <p>تعویض</p>
+                </div>
+                <div class="box-cash-body-dramad-part">
+                  <h1>$</h1>
+                  <p>هزینه ها</p>
+                </div>
+              </div>
+              <button><a href="#" target="_blank">برداشت درآمد</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sec factor and dramad [END]-->
+    </div>
     <!-- side-bar [start] -->
     <div id="side-bar">
       <!-- side-bar-header -->
@@ -144,6 +297,8 @@
       </div>
       <!-- side-bar footer [end] -->
     </div>
+    <!-- header script -->
+    <script src="JS/header.js"></script>
     <!-- side-bar [end] -->
     <script src="JS/bayane.js"></script>
     <!-- sidebar scripts [start] -->
