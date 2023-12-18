@@ -11,10 +11,10 @@ This is a development preview, and only frontend features have been implemented.
 ## preview
 <img src="images/Captu89re.PNG"><br>
 ## Library and tools used in it:
-> [Bootstrap](https://getbootstrap.com/)  <br>
-> [Tippy.js](https://tippyjs.bootcss.com/)  <br>
-> [Apexcharts.js](https://apexcharts.com/)  <br>
-> [Swiper.js](https://swiperjs.com/)  <br>
+> [Bootstrap](https://getbootstrap.com/) 🎯 <br>
+> [Tippy.js](https://tippyjs.bootcss.com/) 📌 <br>
+> [Apexcharts.js](https://apexcharts.com/)  📊 <br>
+> [Swiper.js](https://swiperjs.com/) 📋 <br>
 
 ## Trello link:
 >[ This is our team's Trollo link](https://trello.com/invite/b/vmQGBPfV/ATTIa0495ce0937f7d8489ad7b8329e96e57ABB5F047/admin-panel) <br>
