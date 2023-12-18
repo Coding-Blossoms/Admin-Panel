@@ -20,11 +20,12 @@ header > div > div {
 header > div > div:first-of-type{
   gap: 10px;  
 }
-header > div > div:first-of-type button{
+header > div > div:first-of-type button {
   background-color: var(--blue-color);
   height:40px;
   width: 100px;
 }
+
 header > div > div:first-of-type a{
   height: 40px;
   background-color: var(--sec-color);
@@ -219,6 +220,18 @@ header > div > div:last-of-type p{
   margin-left: 13px;
   margin-top: 10px;
 }
+
+.left-moraajat > a:first-of-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-color);
+  height:40px;
+  width: 100px;
+  text-decoration: none;
+  color: var(--normal-text-color);
+}
+
 .modal-bell{
   display: flex;
   flex-direction: column;
@@ -235,7 +248,6 @@ header > div > div:last-of-type p{
 .modal-bell img{
    width: 349px;
    height: 100px;
-   margin-top: px;
    border-top-right-radius: 15px;
    border-top-left-radius: 15px;
 }

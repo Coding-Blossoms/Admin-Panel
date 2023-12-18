@@ -1,0 +1,373 @@
+@font-face {
+    font-family: IRANSansXV;
+    src: url(../font/IRANSansXV.woff);
+  }
+
+  * {
+    font-family: IRANSansXV;
+    box-sizing: border-box;
+  }
+:root {
+    --body-color: #151521;
+    --blue-por: #212e48;
+    --normal-text-color: #f8ffff;
+    --p-text-color: #6d6d80;
+    --blue-color: #009ef7;
+    --green-color: #50cd89;
+    --red-color: #f1416c;
+    --gray-400-color: #78829d;
+    --sec-color: #1e1e2d;
+    --gray-300-color:#2b2b40;
+    --card-padding:1.8rem;
+    --yellow-color: rgb(218, 218, 31);
+    --select-color:#232335;
+    --color-primary: #44d4fd;
+  --color-label: #a7a7a7;
+  --color-text: #e2dede;
+  --font-family: "Poppins";
+
+   
+
+    --background-color: 0 2rem 3rem var(--green-color);
+    /* padding 1.2rem */
+  }
+
+*{
+    font-family: IRANSansXV;
+  }
+
+body {
+    background-color: var(--body-color);
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#header {
+    max-width: 1420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--sec-color);
+    padding-top: 10PX;
+    padding-bottom: 120px;
+    position: static;
+}
+
+#pageTitle{
+    margin-right: 20px;
+}
+
+#userNeeds {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#userNeeds i{
+    background-color: #403e5e;
+    border-radius: 14px;
+    height: 43.5px;
+    width: 43.5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    color: #f9fafb;
+
+}
+
+#searchBar {
+    margin-left: 0.5rem;
+    
+}
+#searchBar input{
+    width: 250px;
+    height: 42.92px;
+    border-radius: 14px;
+    border-style: none;
+    background: #403e5e;
+}
+
+#headerCon {
+    background-color: var(--body-color);
+    
+}
+
+#btnNew {
+    width: 109.49px;
+    height: 43.59px;
+    padding: 11.075px 20.5px;
+    background: #009ef7;
+    border: none;
+    border-radius: 12px;
+    color: #f9fafb;
+    font-size: 14.3px;
+}
+#pageTitle div {
+    display: flex;
+    flex-direction: column;
+    color: #f8ffff;
+    
+}
+
+/* contnt dashboard */
+
+.content-dashboard{
+display: flex
+;
+}
+.content-dashboard img{
+    background-color: var(--blue-color);
+    position: relative;
+    right:  720px;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 600px;
+    bottom: 90px;
+}
+.content-dashboard .right-dashboard{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 350px;
+    margin-right: 80px;
+   
+}
+
+.content-dashboard .right-dashboard .six-content{
+    width: 190px;
+    height: 150px;
+    background-color: var(--gray-300-color);
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+.content-dashboard .six-content:nth-child(2){
+    position: relative;
+    right: 220px;
+    bottom: 160px;
+}
+.content-dashboard .six-content:nth-child(3){
+    position: relative;
+    bottom: 120px;
+}
+.content-dashboard .six-content:nth-child(4){
+    position: relative;
+    right: 220px;
+    bottom: 280px;
+}
+.content-dashboard .six-content:nth-child(5){
+    position: relative;
+    bottom: 225px;
+}
+.content-dashboard .six-content:nth-child(6){
+    position: relative;
+    right: 220px;
+    bottom: 385px;
+
+}
+.content-dashboard .six-content p{
+    margin-top: 40px;
+    margin-right: 25px;
+    color: var(--normal-text-color);
+    font-size: 17px;
+    font-weight: 900;
+}
+.left-dashboard{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.left-dashboard div {
+    width: 320px;
+    height: 550px;
+    background-color: var(--gray-300-color);
+    position: relative;
+    right:  680px;
+    bottom: 1000px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.left-dashboard h2{
+    font-size: 18px;
+    margin-right: 15px;
+    color: var(--normal-text-color);
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    background: var(--gray-300-color);
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.08);
+    bottom: 1500px;
+    right: 700px;
+  }
+  
+  .card h2 {
+    color: #f9f9f9;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 2px;
+  }
+  
+  .card p {
+    color: var(--color-text);
+    font-size: 14px;
+    margin: 0 0 16px;
+  }
+  
+  .card .pulse {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    background: var(--color-primary);
+    top: 10px;
+    right: 40px;
+    border-radius: 50%;
+  }
+  
+  .card .pulse::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    left: -1px;
+    top: -1px;
+    animation: pulse 2s linear infinite;
+    transform-origin: center;
+    opacity: 0.8;
+    scale: 0;
+  }
+  
+  @keyframes pulse {
+    70% {
+      scale: 0;
+      opacity: 0.8;
+    }
+  
+    100% {
+      scale: 2;
+      opacity: 0;
+    }
+  }
+  
+  .card .chart-area {
+    position: relative;
+  }
+  
+  .card .chart-area .grid {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    background-image: repeating-linear-gradient(
+      to right,
+      transparent 0% 3%,
+      #f9f9f9 3% 3.5%,
+      transparent 3% 18.65%
+    );
+  }
+  
+  .card .chart-area .grid::after {
+    content: "";
+    position: inherit;
+    z-index: -1;
+    top: inherit;
+    bottom: inherit;
+    width: inherit;
+    height: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(27, 27, 27, 1),
+      rgba(27, 27, 27, 0.9),
+      rgba(27, 27, 27, 1)
+    );
+  }
+  
+  body .apexcharts-tooltip.apexcharts-theme-light {
+    color: var(--color-text);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: none;
+    padding: 8px 6px 4px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: 0;
+  }
+  
+  .apexcharts-tooltip-title,
+  .apexcharts-zaxistooltip-bottom.apexcharts-theme-light {
+    display: none;
+  }
+  .left-dashboard div img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 270px;
+    margin-bottom: 15px;
+  }
+
+  .left-dashboard div span{
+    position: relative;
+    right: 100px;
+    top: 220px;
+    color: var(--normal-text-color);
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .doit-dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+  .doit-dashboard p{
+    color: var(--normal-text-color);
+    font-weight: 800;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.doit-dashboard p:nth-child(2){
+      border-right: 3px solid var(--green-color);
+      padding: 5px;
+
+  }
+.doit-dashboard p:nth-child(3){
+      border-right: 3px solid var(--blue-color);
+      padding: 5px;
+
+  }
+.doit-dashboard p:nth-child(4){
+      border-right: 3px solid var(--yellow-color);
+      padding: 5px;
+
+  }
+.doit-dashboard p:nth-child(5){
+      border-right: 3px solid var(--green-color);
+      padding: 5px;
+
+  }
+.doit-dashboard p:nth-child(6){
+      border-right: 3px solid var(--red-color);
+      padding: 5px;
+
+  }
+.doit-dashboard p:nth-child(7){
+      border-right: 3px solid var(--green-color);
+      padding: 5px;
+
+  }

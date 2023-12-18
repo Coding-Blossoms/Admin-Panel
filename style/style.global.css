@@ -22,6 +22,7 @@ body {
   background-color: var(--body-color);
   margin: 0;
   padding: 0;
+  text-decoration: none
 }
 
 p {
