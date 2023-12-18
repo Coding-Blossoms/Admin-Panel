@@ -53,6 +53,14 @@ header > div > div:last-of-type p{
   font-size: 12px;
   font-weight: 500;
 }
+.fix-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+
 #header-continer{
   display: flex;
   flex-direction: column;
@@ -180,13 +188,14 @@ header > div > div:last-of-type p{
 #header-continer{
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 #header-continer>div:last-of-type{
   margin-top: 110px;
   display: flex;
   width: 1289px;
   background-color: var(--sec-color);
-  margin: 110px auto;
+  /* margin: 110px auto; */
   direction: rtl;
   border-radius: 0 0 10px 10px;
   gap: 30px;

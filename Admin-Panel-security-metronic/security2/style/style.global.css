@@ -22,18 +22,9 @@ body {
   background-color: var(--body-color);
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
-/* section style */
-section {
-  margin: auto;
-  max-width: 1289px;
-  min-width: 38px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 25px;
-  border-radius: 20px;
-}
-/* alment style */
+
 p {
   color: var(--p-text-color);
   font-size: 15px;
