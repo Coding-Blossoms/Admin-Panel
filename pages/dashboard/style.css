@@ -40,18 +40,21 @@ body {
     background-color: var(--body-color);
     margin: 0 auto;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
 #header {
-    max-width: 1420px;
+    width: 1240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--sec-color);
     padding-top: 10PX;
     padding-bottom: 120px;
-    position: static;
 }
 
 #pageTitle{
@@ -115,8 +118,9 @@ body {
 /* contnt dashboard */
 
 .content-dashboard{
-display: flex
-;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .content-dashboard img{
     background-color: var(--blue-color);
@@ -130,10 +134,11 @@ display: flex
 .content-dashboard .right-dashboard{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     bottom: 350px;
-    margin-right: 80px;
-   
+    margin-left: 0px;
 }
 
 .content-dashboard .right-dashboard .six-content{
