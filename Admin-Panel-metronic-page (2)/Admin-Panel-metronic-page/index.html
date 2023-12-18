@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/style.global.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/solid.css" />
+    <link rel="stylesheet" href="css/brands.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -21,6 +26,151 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.js"></script>
   </head>
   <body>
+    <!-- header [start] -->
+    <header>
+      <div>
+        <div class="left-moraajat">
+          <button>هدف جدید</button>
+          <a href="#"><i class="fa-solid fa-moon"></i></a>
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="#">
+            <i id="bell-icon" class="fa-solid fa-bell"></i>
+            <div class="modal-bell">
+              <img
+                src="img/header/197f25c5-1cd4-469c-9794-3fc4cdf359b1.png"
+                alt=""
+              />
+              <span>اعلان ها</span>
+              <p class="gozaresh-morajat">24 گزارش</p>
+              <div class="modal-page">
+                <div><p>هشدار ها</p></div>
+                <div><p>بروزرسانی</p></div>
+                <div><p>گزارش</p></div>
+              </div>
+              <div class="modal-content">
+                <h2>دسترسی حرفه ای را دریافت کنید</h2>
+                <p>
+                  رئوس مطالب شما را صادق نگه می دارد. آنها جلوی شگفت انگیز بودن
+                  شما درمورد رانندگی را می گیرند
+                </p>
+                <button onclick="erteqaModal()">ارتقا دهید</button>
+                <img src="img/header/1.png" alt="" />
+              </div>
+            </div>
+            <div class="modal-erteqa">
+              <i class="fa-solid fa-xmark"></i>
+              <h2>یک برنامه را ارتقا کنید</h2>
+              <p>
+                اگر به اطلاعات لازم دارید ، لطفاً بررسی کنید<span
+                  >دستورالعمل قیمت گذاری.</span
+                >
+              </p>
+              <div class="years-erteqa">
+                <p>ماهانه</p>
+                <p>سالانه</p>
+              </div>
+              <div class="right-erteqa">
+                <div>
+                  <p>39 ت</p>
+                  <p>استارت آپ</p>
+                </div>
+                <div>
+                  <p>339ت</p>
+                  <p>پیشرفته</p>
+                </div>
+                <div>
+                  <p>999ت</p>
+                  <p>شرکتو پروژه</p>
+                </div>
+                <div>
+                  <p class="sefaresh-erteqa">سفارش با ما</p>
+                  <p>سفارشی</p>
+                </div>
+              </div>
+              <div class="left-erteqa">
+                <h2>برنامه ی استارت اپ شما چیست؟</h2>
+                <p>بهینه برای تیم بیش از 10 نفر و استارت آپ جدید</p>
+                <p>فعال ترین کاربران</p>
+                <p>حداکثر 30 ادغام پروژه</p>
+                <p>ماژول تجزیه و تحلیل</p>
+                <p>ماژول دارایی ، مالیه ، سرمایه گذاری</p>
+                <p>ماژول حسابداری</p>
+                <p>بستر شبکه</p>
+                <p>فضای نامحدود ابر</p>
+              </div>
+              <div class="eseraf-erteqa">
+                <div><p>ارتقا سطح</p></div>
+                <div><p>انصراف</p></div>
+              </div>
+            </div>
+          </a>
+          <input type="text" placeholder="جستجو کن" />
+        </div>
+        <div>
+          <h1>مراجعات</h1>
+          <p>خانه - صفحات - اکانت - مراجعات</p>
+        </div>
+      </div>
+    </header>
+    <div id="header-continer">
+      <div id="personal-description-sec">
+        <div>
+          <img src="img/header/300-1.jpg" alt="header" />
+          <div>
+            <a href="#"> جلالی</a>
+            <div>
+              <a href="#">توسعه دهنده</a>
+              <a href="#">منطقه زندگی</a>
+              <a href="#">max@kt.com</a>
+            </div>
+            <div id="DPN-part">
+              <div>
+                <h3></h3>
+                <p>درآمد</p>
+              </div>
+              <div>
+                <h3></h3>
+                <p>پروژه ها</p>
+              </div>
+              <div>
+                <h3></h3>
+                <p>نرخ موفقیت</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <a href="#">دنبال کردن</a>
+            <button>من را استخدام کن</button>
+            <a href="#"></a>
+          </div>
+          <div>
+            <div>
+              <p>تکمیل پروفایل</p>
+              <span>50%</span>
+            </div>
+            <div id="darsad-sod">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <a href="#">بررسی اجمالی</a>
+        <a href="#"> تنظیمات </a>
+        <a href="#"> امنیت</a>
+        <a href="#"> فعالیت</a>
+        <a href="#"> صورتحساب</a>
+        <a href="#"> بیانه ها</a>
+        <a href="#"> مراجعات</a>
+        <a href="#"> کلید ای پی ای</a>
+        <a href="#"> گزارش</a>
+      </div>
+    </div>
+
+    <!-- header [end] -->
     <!-- side-bar [start] -->
     <div id="side-bar">
       <!-- side-bar-header -->
