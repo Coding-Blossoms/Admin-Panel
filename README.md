@@ -9,7 +9,13 @@
 This is a development preview, and only frontend features have been implemented. Enjoy exploring the aesthetics and layout while anticipating the dynamic functionality to come in future updates! ❤<br>
 
 ## preview
-<img src="images/Captu89re.PNG">
+<img src="images/Captu89re.PNG"><br>
+## Library and tools used in it:
+> [Bootstrap](https://getbootstrap.com/)  <br>
+> [Tippy.js](https://tippyjs.bootcss.com/)  <br>
+> [Apexcharts.js]([https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/account/statements.html](https://apexcharts.com/))  <br>
+> [Swiper.js](https://swiperjs.com/)  <br>
+
 
 > [This is the main site](https://metronictheme.job100.ir/rtl/metronic8/demo9/dist/account/statements.html)  <br>
 >[ This is our team's Trollo link](https://trello.com/invite/b/vmQGBPfV/ATTIa0495ce0937f7d8489ad7b8329e96e57ABB5F047/admin-panel) <br>
