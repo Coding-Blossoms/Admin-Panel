@@ -1,0 +1,440 @@
+@font-face {
+    font-family: IRANSansXV;
+    src: url(../font/IRANSansXV.woff);
+  }
+
+  * {
+    font-family: IRANSansXV;
+    box-sizing: border-box;
+  }
+
+  /* color style */
+  :root {
+    --body-color: #151521;
+    --blue-por: #212e48;
+    --normal-text-color: #f8ffff;
+    --p-text-color: #6d6d80;
+    --blue-color: #009ef7;
+    --green-color: #50cd89;
+    --red-color: #f1416c;
+    --gray-400-color: #78829d;
+    --sec-color: #1e1e2d;
+    --gray-300-color:#2b2b40;
+    --card-padding:1.8rem;
+    --yellow-color: rgb(218, 218, 31);
+    --select-color:#232335;
+
+   
+
+    --background-color: 0 2rem 3rem var(--green-color);
+    /* padding 1.2rem */
+  }
+  body {
+    background-color: var(--body-color);
+    margin: 0 auto;
+    padding: 0;
+   }
+
+.fix-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1220px;
+    height:500%;
+    direction: rtl;
+    padding: 60px 0px 54px 0px;
+    border-radius: 9px;
+    background-color: var(--sec-color);
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    z-index: -100;
+  }
+  
+  .api-header{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     height: 10px;
+     border-bottom: 1px solid var(--gray-300-color);
+    
+     
+  }
+  
+  .api-header h2{
+     color: var(--normal-text-color);
+     font-size: 19px;
+     position: relative;
+     bottom: 32px;
+     right: 20px;
+     
+  }
+  
+  .test-mode {
+    position: absolute;
+    left: 12px;
+    top:  10px;
+  }
+  
+  .test-mode p{
+     color:var(--p-text-color) ;
+     font-size: 15px;
+  }
+  
+  /* checkbox style */
+  .costom-checkbox {
+     position: absolute;
+     left: 90px;
+     top: 20px;
+  }
+  
+  input[type="checkbox"]{
+     position: relative;
+     width: 40px;
+     height: 20px;
+     appearance: none;
+     background-color: var(--p-text-color);
+     outline: none;
+     border-radius: 20px;
+     transition: 0.5s;
+     cursor: pointer;
+     bottom: 5px;
+     right: 15px;
+  }
+  
+  input:checked[type="checkbox"]{
+     background-color: var(--blue-color);
+  }
+  
+  input[type="checkbox"]::before {
+     content: '';
+     position: absolute;
+     width: 18px;
+     height: 18px;
+     border-radius: 50%;
+     top: 1px;
+     left: 2px;
+     bottom: 4px;
+     background-color: #f8ffff;
+     transition: 0.5s;
+  }
+  
+  input:checked[type="checkbox"]::before {
+     background-color: #f8ffff;
+     transform: translateX(20px);
+  }
+  /* content api sec 1 */
+  .api-content {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+     margin-top: 10px;
+  }
+  
+  .api-content .right-content h1 , .left-content-api h1{
+     color: var(--normal-text-color);
+     font-size: 18px;
+     margin-right: 100px;
+  }
+  .api-content .right-content p , .left-content-api p{
+     padding: 10px 100px;
+     color: var(--p-text-color);
+     font-size: 15px;
+  }
+  .api-content .right-content button , .left-content-api button{
+   margin-right: 100px;
+   background-color: var(--gray-300-color);
+   color: var(--p-text-color);
+   border: none;
+   padding: 10px 10px;
+   border-radius: 10px;
+   cursor: pointer;
+  }
+  
+  .api-content .right-content button:hover , .left-content-api button:hover {
+     background-color: var(--blue-por);
+     color: var(--blue-color);
+     transition-duration: 1s;
+  }
+  
+  .know-more {
+     display: flex;
+     position: relative;
+     margin-top: 40px;
+  
+  }
+  
+  .know-more button{
+     background-color: var(--blue-por);
+     border-style: dashed;
+     border-width: 1px;
+     border-color: var(--blue-color);
+     color: var(--gray-400-color);
+     border-radius: 15px;
+     padding: 10px 20px;
+     margin-left: 30px;
+     margin-right: 30px;
+  }
+  
+  .know-more button p{
+     font-size: 14px;
+     display: inline-block;
+  }
+  
+  .know-more p span {
+     color: var(--blue-color);
+     font-size: 15px;
+  }
+
+  /* meeting of report page */
+  .report {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1289px;
+    min-width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    
+  }
+  .metting-part {
+   margin: 0 auto;
+   margin-top: 50px;
+   max-width: 1220px;
+  height:360%;
+  direction: rtl;
+  padding: 60px 0px 54px 0px;
+  border-radius: 9px;
+  background-color: var(--sec-color);
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -100;
+  }
+
+  .input-meet {
+    position: relative;
+    border-bottom: 1px solid var(--gray-300-color);
+  }
+
+ .input-meet h2 {
+    font-size: 17px;
+    color: var(--normal-text-color);
+    font-weight: 900;
+    position: absolute;
+    bottom: 8px;
+    right: 19px;
+ }
+
+ /* left item */
+
+ .leftitem-meet{
+    float: left;
+    
+ }
+
+ /* Select option */
+ .leftitem-meet select {
+    font-size: 15px;
+    background-color: var(--gray-300-color);
+    color: var(--gray-400-color);
+    border: none;
+    padding: 4px 30px;
+    border-radius: 10px;
+    appearance: 2em;
+    outline: none;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 90px;
+    cursor: pointer;
+ }
+/* button of leftitem */
+ .leftitem-meet button {
+   width: 100px;
+   height: 35px;
+   padding: 5px 13px;
+   border: none;
+   outline: none;
+   background-color: var(--blue-color);
+   border-radius: 10px;
+   margin-left: 10px;
+   position: absolute;
+   left: 10px;
+   bottom: 15px;
+   cursor: pointer;
+   
+ }
+
+ .leftitem-meet button span{
+    font-size: 13px;
+    color: var(--normal-text-color);   
+ }
+
+/* step 2 */
+table {
+   border-collapse: collapse;
+}
+
+ .recent-order .detaies table tr{
+   border-bottom: 1px solid var(--gray-300-color);
+ 
+ }
+  
+.recent-order table {
+   width: 100%;
+   border-radius: 2rem;
+   padding: 1rem;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.recent-order table th{
+   color: var(--normal-text-color);
+   padding-bottom: 10px;
+   
+}
+
+.recent-order table tbody tr td{
+   color: var(--p-text-color);
+   padding-bottom: 20px;
+   padding-top: 12px;
+
+}
+
+.recent-order table .succes {
+   color: var(--green-color);
+  background-color: var(--box-shadow);
+
+}
+
+.recent-order table .warring{
+   color: var(--red-color);
+}
+
+.recent-order table .hoshdar{
+   color: var(--yellow-color);
+} 
+
+/* thred section style start */
+
+.api-key{
+    margin: 0 auto;
+    max-width: 1220px;
+    height:600%;
+    direction: rtl;
+    padding: 60px 0px 54px 0px;
+    border-radius: 9px;
+    background-color: var(--sec-color);
+    margin-bottom: 20px;
+    z-index: -100;
+}
+
+.header-api-text{
+ display: flex;
+ position: relative;
+ align-items: center;
+ border-bottom: 1px solid var(--gray-300-color);
+}
+
+.header-api-text h2{
+    font-size: 19px;
+    color: var(--normal-text-color);
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+    font-weight: 900;
+}
+
+/* style of tables */
+.content-api-key table{
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-api-key table thead tr th {
+    color: var(--normal-text-color);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 19px;
+}
+
+.content-api-key table  tr{
+    border-bottom: 1px solid var(--gray-300-color);
+}
+
+.condition{
+    padding-left: 220px;
+}
+
+.last-select{
+    position: relative;
+    left: 100px;
+}
+
+.last-copy{
+    position: relative;
+    width: 31px;
+    height: 30px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.content-api-key table tbody tr td{
+    color: var(--p-text-color);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.last-icon{
+    position: relative;
+    left: 180px;
+    color: var(--green-color);
+}
+
+.last-select{
+   border: none;
+   background-color: var(--select-color);
+   color: var(--p-text-color);
+   padding: 5px 13px;
+   border-radius:  10px;
+   cursor: pointer;
+}
+
+.last-select:hover{
+   background-color: var(--gray-300-color);
+}
+.coloricon:hover{
+   color: var(--blue-color);
+   background-color: var(--normal-text-color);
+   padding: 8px 8px;
+   border-radius: 10px;
+   transition-duration: 0.5s;
+}
+#url-input , #url-input-two ,  #url-input-three ,  #url-input-four ,  #url-input-five ,  #url-input-six , #url-input-seven
+{
+   background-color: var(--sec-color);
+   border: none;
+   outline: none;
+   color: var(--p-text-color);
+   font-size: 15px;
+
+ }
+ .first-td .fa-check{
+   display: none;
+ }
+
+

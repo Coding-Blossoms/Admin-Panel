@@ -1,0 +1,132 @@
+*{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.side-bar-pages{
+   position: relative;
+   padding: 0px 30px;
+   transition: all .4s;
+}
+
+.accordion ,.accordion-tools{
+   display: none;
+   top: 0;
+   overflow: hidden;
+    width: 100%;
+    right: 100%;
+    min-width: 300px;
+    margin: 30px auto 20px;
+    border-radius: 7px;
+    background-color: var(--sec-color);
+    padding: 18px 20px 20px 0px;
+    position: absolute;
+    z-index: 400;
+    box-shadow: var(--bs-menu-dropdown-box-shadow);
+    transition: opacity 0.5s, max-height 0.5s;
+}
+
+.side-bar-pages:hover .accordion{
+   display: block;
+}
+.side-bar-pages:hover .accordion-tools{
+   display: block;
+}
+
+.link {
+   cursor: pointer;
+   display: flex;
+   justify-content: flex-end;
+   padding: 15px 15px 15px 0px;
+   font-size: 14px;
+   font-weight: 700;
+   position: relative;
+   -webkit-transition: all 0.4s ease;
+   -o-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+li:last-child .link {
+   border-bottom: 0;
+}
+
+li i {
+   position: absolute;
+   top: 16px;
+   left: 12px;
+   font-size: 18px;
+   color: var( --p-text-color);
+   -webkit-transition: all 0.4s ease;
+   -o-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+li i.fa-chevron-down {
+   left: auto;
+   font-size: 12px;
+}
+
+li.open i.bxs-chevron-down {
+   -webkit-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   transform: rotate(180deg);
+}
+
+ li.default .submenu {display: block;}
+/**
+* Submenu
+-----------------------------*/
+.submenu {
+    display: none;
+    font-size: 14px;
+}
+
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: var( --p-text-color);
+    padding: 12px;
+    padding-left: 42px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.accordion-title{
+   text-align: right;
+   color: var( --normal-text-color);
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.link-container-title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.bullet-sub{
+   background-color: var( --p-text-color);
+   width: 6px;
+   height: 6px;
+   border-radius: 50px;
+}
+
+.submenu-container{
+   padding-right: 11px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.title-sub{
+   padding-right: 8px;
+}
+
+.link-title{
+   margin-right: 9px;
+   color: var(--p-text-color);
+}
